@@ -515,6 +515,7 @@
     {"id":{"name":"ob_real_door_parent","path":"objects/ob_real_door_parent/ob_real_door_parent.yy",},"order":24,},
     {"id":{"name":"obj_real_door1","path":"objects/obj_real_door1/obj_real_door1.yy",},"order":25,},
     {"id":{"name":"obj_slope","path":"objects/obj_slope/obj_slope.yy",},"order":1,},
+    {"id":{"name":"spr_LMAOOOOOO","path":"sprites/spr_LMAOOOOOO/spr_LMAOOOOOO.yy",},"order":12,},
     {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},"order":2,},
     {"id":{"name":"obj_sticky","path":"objects/obj_sticky/obj_sticky.yy",},"order":3,},
     {"id":{"name":"force_directional","path":"objects/force_directional/force_directional.yy",},"order":11,},
