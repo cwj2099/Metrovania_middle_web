@@ -1,0 +1,5 @@
+function mummy_move() {
+
+
+
+}

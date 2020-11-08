@@ -1,0 +1,1 @@
+Added compatibility script 'draw/draw_enable_alphablend.gml'
