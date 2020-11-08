@@ -79,3 +79,12 @@ if(switch3.status){
 	switch3.status=false;
 	instance_create_layer(switch2.x,switch2.y+25,"Boxes",event_teleport);
 }
+
+if(switch4.status){
+	switch4.status=false;
+	dX=0;
+	dY=0;
+	var fade=instance_create_layer(x,y,"Boxes",event_fade_out);
+	fade.groom=room_test;
+	write("spawn",2);
+}

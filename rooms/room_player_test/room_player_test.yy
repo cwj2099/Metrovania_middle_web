@@ -44,6 +44,7 @@
             {"properties":[],"isDnd":false,"objectId":{"name":"obj_switch2","path":"objects/obj_switch2/obj_switch2.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":100.0,"y":441.0,"resourceVersion":"1.0","name":"inst_3287B256","tags":[],"resourceType":"GMRInstance",},
             {"properties":[],"isDnd":false,"objectId":{"name":"fur_door","path":"objects/fur_door/fur_door.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":191.0,"y":220.0,"resourceVersion":"1.0","name":"inst_262E09FC","tags":[],"resourceType":"GMRInstance",},
             {"properties":[],"isDnd":false,"objectId":{"name":"obj_switch3","path":"objects/obj_switch3/obj_switch3.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":191.0,"y":220.0,"resourceVersion":"1.0","name":"inst_29031F16","tags":[],"resourceType":"GMRInstance",},
+            {"properties":[],"isDnd":false,"objectId":{"name":"obj_switch4","path":"objects/obj_switch4/obj_switch4.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":784.0,"y":236.0,"resourceVersion":"1.0","name":"inst_34091C57","tags":[],"resourceType":"GMRInstance",},
           ],"visible":true,"depth":501,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"fur","tags":[],"resourceType":"GMRInstanceLayer",},
         {"instances":[
             {"properties":[],"isDnd":false,"objectId":{"name":"fur_big_tv","path":"objects/fur_big_tv/fur_big_tv.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":562.0,"y":165.0,"resourceVersion":"1.0","name":"inst_4498DB91","tags":[],"resourceType":"GMRInstance",},
@@ -169,6 +170,7 @@
     {"name":"inst_52CAFB91","path":"rooms/room_player_test/room_player_test.yy",},
     {"name":"inst_37F50C3","path":"rooms/room_player_test/room_player_test.yy",},
     {"name":"inst_25554712","path":"rooms/room_player_test/room_player_test.yy",},
+    {"name":"inst_34091C57","path":"rooms/room_player_test/room_player_test.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -21,6 +21,13 @@ with(player){
 }
 
 
-
+if(switch1.status){
+	switch1.status=false;
+	dX=0;
+	dY=0;
+	var fade=instance_create_layer(x,y,"Boxes",event_fade_out);
+	fade.groom=room_test;
+	write("spawn",2);
+}
 
 

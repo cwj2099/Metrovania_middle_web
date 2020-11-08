@@ -457,6 +457,7 @@
     {"id":{"name":"obj_option3","path":"objects/obj_option3/obj_option3.yy",},"order":3,},
     {"id":{"name":"obj_option4","path":"objects/obj_option4/obj_option4.yy",},"order":4,},
     {"id":{"name":"event_office_1","path":"objects/event_office_1/event_office_1.yy",},"order":0,},
+    {"id":{"name":"obj_switch4","path":"objects/obj_switch4/obj_switch4.yy",},"order":26,},
     {"id":{"name":"spr_ovelMan_attack","path":"sprites/spr_ovelMan_attack/spr_ovelMan_attack.yy",},"order":1,},
     {"id":{"name":"event_master_office1","path":"objects/event_master_office1/event_master_office1.yy",},"order":1,},
     {"id":{"name":"event_player_room1","path":"objects/event_player_room1/event_player_room1.yy",},"order":2,},

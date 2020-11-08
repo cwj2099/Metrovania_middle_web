@@ -25,6 +25,8 @@ stone2=instance_find(obj_stone2,0);
 switch1=instance_find(obj_switch1,0);
 switch2=instance_find(obj_switch2,0);
 switch3=instance_find(obj_switch3,0);
+switch4=instance_find(obj_switch4,0);
+
 
 contact1=instance_find(obj_contact1,0);
 contact2=instance_find(obj_contact2,0);

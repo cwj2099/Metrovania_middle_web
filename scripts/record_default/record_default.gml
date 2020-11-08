@@ -15,10 +15,10 @@ function record_default() {
 	write("roll_enable",true);
 	write("doubleJump_switch",true);
 
-	write("room",room_player_test);//initial room
+	write("room",room_tutorial1);//initial room
 	write("world",0);//real world is 0, while fiction world is 1
-	write("spawn",2);//spawn point is respawn
-	write("respawn",room_player_test);
+	write("spawn",1);//spawn point is respawn
+	write("respawn",room_tutorial1);
 
 	//////////////////////
 	//Map Changes
