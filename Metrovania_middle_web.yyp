@@ -226,6 +226,7 @@
     {"id":{"name":"dash","path":"sounds/dash/dash.yy",},"order":8,},
     {"id":{"name":"punch1","path":"sounds/punch1/punch1.yy",},"order":9,},
     {"id":{"name":"punch2","path":"sounds/punch2/punch2.yy",},"order":10,},
+    {"id":{"name":"spr_ahhahahahaha","path":"sprites/spr_ahhahahahaha/spr_ahhahahahaha.yy",},"order":27,},
     {"id":{"name":"wind1","path":"sounds/wind1/wind1.yy",},"order":11,},
     {"id":{"name":"wind2","path":"sounds/wind2/wind2.yy",},"order":12,},
     {"id":{"name":"wind3","path":"sounds/wind3/wind3.yy",},"order":13,},
