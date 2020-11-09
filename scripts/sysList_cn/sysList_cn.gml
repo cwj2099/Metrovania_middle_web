@@ -177,16 +177,20 @@ function sysList_cn(argument0) {
 		break;
 	
 		case 017:
-			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"Press L while pressing WASD in any combination to roll in any direction");	
+			ds_grid_resize(list,4,3)
+			ds_grid_add(list,0,2,"强力二连踢解锁！");	
+			ds_grid_add(list,0,1,"按U键消耗热度使用二连踢");
+			ds_grid_add(list,0,0,"二连踢的威力与热度息息相关");
 	
 			return(list);
 		break;
 	
 		case 018:
-			ds_grid_resize(list,4,2)
-			ds_grid_add(list,0,1,"Press J / X to attack enemies");
-			ds_grid_add(list,0,0,"Press L / RB to avoid enemies's attack");
+			ds_grid_resize(list,4,4)
+			ds_grid_add(list,0,3,"特殊攻击解锁！");
+			ds_grid_add(list,0,2,"按住W再按J使出上勾拳");
+			ds_grid_add(list,0,1,"空中按住S再按J使出下砸拳");
+			ds_grid_add(list,0,0,"连按A或者D两下再按J使出冲刺拳");
 		
 			return(list);
 		break;

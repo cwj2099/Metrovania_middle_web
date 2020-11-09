@@ -13,7 +13,9 @@ function record_default() {
 	write("attack_type",true);
 
 	write("roll_enable",true);
-	write("doubleJump_switch",true);
+	write("doubleJump_switch",false);
+	write("doubleKick_switch",false);
+	write("speicalAttack_switch",false);
 
 	write("room",room_tutorial1);//initial room
 	write("world",0);//real world is 0, while fiction world is 1

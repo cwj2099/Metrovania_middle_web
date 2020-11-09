@@ -121,7 +121,7 @@ function player_action() {
 	}
 
 	if(global.input_A_p){
-		if(dirDouble>0&&dashAttack&&status!=states.dash_attack){
+		if(dirDouble>0&&dashAttack&&status!=states.dash_attack&&load("specialAttack_switch")){
 				clear_hitbox();
 				running=false;
 				status=states.dash_attack;
@@ -131,14 +131,14 @@ function player_action() {
 		
 		
 			//regardless the chain, if up is pressed and unground, do the upper cut
-			if(global.input_up_d&&upperCut&&status!=states.upper_cut){
+			if(global.input_up_d&&upperCut&&status!=states.upper_cut&&load("specialAttack_switch")){
 				upperCut=false;
 				clear_hitbox();
 				status=states.upper_cut;
 				movestun=-1;
 			}
 			//if in air and pressed down, do the beat down
-			if(global.input_down_d&&!(onGround||onPlatform)&&status!=states.beat_down){
+			if(global.input_down_d&&!(onGround||onPlatform)&&status!=states.beat_down&&load("specialAttack_switch")){
 				clear_hitbox();
 				status=states.beat_down;
 				movestun=-1;
@@ -146,7 +146,7 @@ function player_action() {
 		
 				
 	}
-	if((global.input_X_p||check_buffer(global.input_X_q,buffer))&&load("attack_switch")&&status!=states.special1&&flyKick){
+	if((global.input_X_p||check_buffer(global.input_X_q,buffer))&&load("attack_switch")&&status!=states.special1&&flyKick&&load("doubleKick_switch")){
 			flyKick=false;
 			clear_hitbox();
 			status=states.special1;
