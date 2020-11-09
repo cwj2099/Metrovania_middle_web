@@ -14,6 +14,8 @@ lSp=ds_queue_create();
 chain=states.neutral;
 chain_count=0;
 critical=true;
+mSsp=mSp/4;
+ssp=mSsp;
 
 onGround=false;
 onPlatform=false;

@@ -594,6 +594,7 @@
     {"id":{"name":"obj_window_connected","path":"objects/obj_window_connected/obj_window_connected.yy",},"order":10,},
     {"id":{"name":"obj_build_space1","path":"objects/obj_build_space1/obj_build_space1.yy",},"order":11,},
     {"id":{"name":"obj_build_space2","path":"objects/obj_build_space2/obj_build_space2.yy",},"order":12,},
+    {"id":{"name":"enemy_dizzyCheck","path":"scripts/enemy_dizzyCheck/enemy_dizzyCheck.yy",},"order":12,},
     {"id":{"name":"obj_build_space3","path":"objects/obj_build_space3/obj_build_space3.yy",},"order":13,},
     {"id":{"name":"obj_build_space4","path":"objects/obj_build_space4/obj_build_space4.yy",},"order":14,},
     {"id":{"name":"obj_build","path":"objects/obj_build/obj_build.yy",},"order":15,},

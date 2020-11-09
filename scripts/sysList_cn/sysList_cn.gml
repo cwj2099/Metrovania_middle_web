@@ -5,14 +5,14 @@ function sysList_cn(argument0) {
 	
 		case 000:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"Respawn point updated");
+			ds_grid_add(list,0,0,"重生点更新");
 		
 			return(list);
 		break;
 	
 		case 001:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"Press A and D to move around");
+			ds_grid_add(list,0,0,"按A键与D键进行移动");
 		
 			ds_grid_add(list,2,0,spr_avatar_sign);
 			ds_grid_add(list,1,0,spr_avatar_blank);
@@ -21,7 +21,7 @@ function sysList_cn(argument0) {
 	
 		case 002:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"Press K to jump, hold K to jump higher");	
+			ds_grid_add(list,0,0,"按K键跳跃，长按能跳的更高");	
 	
 
 			ds_grid_add(list,2,0,spr_avatar_sign);	
@@ -31,7 +31,7 @@ function sysList_cn(argument0) {
 	
 		case 003:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"Initial a jump when dashing to jump higher");
+			ds_grid_add(list,0,0,"使用L键和方向键进行闪避，在空中使用来进一步飞跃");
 		
 			ds_grid_add(list,2,0,spr_avatar_sign);
 		
@@ -41,7 +41,7 @@ function sysList_cn(argument0) {
 	
 		case 004:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"Hold S then press K to drop through the platform");
+			ds_grid_add(list,0,0,"按住S的同时按跳跃键能从平台上落下");
 		
 			ds_grid_add(list,2,0,spr_avatar_sign);
 		
@@ -51,7 +51,7 @@ function sysList_cn(argument0) {
 	
 		case 005:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"The Stone will be destoryed if you attack");
+			ds_grid_add(list,0,0,"按空格键或者W与物品进行交互");
 		
 			ds_grid_add(list,2,0,spr_avatar_sign);
 		
@@ -60,31 +60,25 @@ function sysList_cn(argument0) {
 		break;
 	
 		case 006:
-			ds_grid_resize(list,4,2)
-			ds_grid_add(list,0,1,"Sword Unlocked");
-			ds_grid_add(list,0,0,"Press J to attack");
-		
-			ds_grid_add(list,2,1,spr_avatar_blank);
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"由于这只是个DEMO。所以不要期待这里藏了个宝箱");
+
+
 			ds_grid_add(list,2,0,spr_avatar_blank);
 		
-			ds_grid_add(list,1,1,spr_avatar_blank);
+
 			ds_grid_add(list,1,0,spr_avatar_blank);
 		
 			return(list);
 		break;
 	
 		case 007:
-			ds_grid_resize(list,4,3)
-			ds_grid_add(list,0,2,"Assitant: we finally located the theif");
-			ds_grid_add(list,0,1,"Assitant: it should be at xxx street xxx corner");
-			ds_grid_add(list,0,0,"You: I see, I'll be there as soon as possible");
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"连按J键进行攻击！");
 		
-			ds_grid_add(list,2,2,spr_npc_1);
-			ds_grid_add(list,2,1,spr_npc_1);
 			ds_grid_add(list,2,0,spr_avatar_blank);
 		
-			ds_grid_add(list,1,2,spr_avatar_blank);
-			ds_grid_add(list,1,1,spr_avatar_blank);
+
 			ds_grid_add(list,1,0,spr_player);
 		
 			return(list);
@@ -92,8 +86,8 @@ function sysList_cn(argument0) {
 	
 		case 008:
 			ds_grid_resize(list,4,2)
-			ds_grid_add(list,0,1,"Double Jump unlocked");
-			ds_grid_add(list,0,0,"Press K in the air to perform a Double Jump");
+			ds_grid_add(list,0,1,"二段跳解锁");
+			ds_grid_add(list,0,0,"你可以在空中再跳一次了");
 
 		
 			ds_grid_add(list,2,1,spr_avatar_blank);
@@ -107,7 +101,7 @@ function sysList_cn(argument0) {
 	
 		case 009:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"Press L to roll through dangerous objects");
+			ds_grid_add(list,0,0,"闪避具有无敌，非常适合用来规避攻击");
 		
 			ds_grid_add(list,2,0,spr_avatar_sign);
 			ds_grid_add(list,1,0,spr_avatar_blank);
@@ -116,7 +110,7 @@ function sysList_cn(argument0) {
 	
 		case 010:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"Press K to jump, hold K to jump higher");	
+			ds_grid_add(list,0,0,"随着攻击命中，玩家热度会上升进而提高伤害！");	
 	
 
 			ds_grid_add(list,2,0,spr_avatar_sign);	
@@ -125,17 +119,13 @@ function sysList_cn(argument0) {
 		break;
 	
 	 	case 011:
-			ds_grid_resize(list,4,3)
-			ds_grid_add(list,0,2,"Assitant: Very bad things happened");
-			ds_grid_add(list,0,1,"Assitant: please go and find solution");
-			ds_grid_add(list,0,0,"You: I see, I'm doing it now");
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"而挨打和使用闪避则会降低热度");
 		
-			ds_grid_add(list,2,2,spr_npc_1);
-			ds_grid_add(list,2,1,spr_npc_1);
+
 			ds_grid_add(list,2,0,spr_avatar_blank);
 		
-			ds_grid_add(list,1,2,spr_avatar_blank);
-			ds_grid_add(list,1,1,spr_avatar_blank);
+
 			ds_grid_add(list,1,0,spr_player_real);
 		
 			return(list);
@@ -143,14 +133,13 @@ function sysList_cn(argument0) {
 
 
 		case 012:
-			ds_grid_resize(list,4,2)
-			ds_grid_add(list,0,1,"Assitant: stop wondering around");
-			ds_grid_add(list,0,0,"You: I'll looking for solution");
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"热度也会随着时间的流逝逐渐降低");
 		
-			ds_grid_add(list,2,1,spr_npc_1);
+
 			ds_grid_add(list,2,0,spr_avatar_blank);
 		
-			ds_grid_add(list,1,1,spr_avatar_blank);
+
 			ds_grid_add(list,1,0,spr_player_real);
 		
 			return(list);
@@ -158,14 +147,14 @@ function sysList_cn(argument0) {
 
 		case 013:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"Rolling consumes energy (the blue gauge on the top left)");	
+			ds_grid_add(list,0,0,"有些敌人具有霸体，不要和他们硬碰硬");	
 
 			return(list);
 		break;
 	
 		case 014:
 			ds_grid_resize(list,4,4)
-			ds_grid_add(list,0,0,"Rolling at perfect timing absorbs damage and awards you with temporary extra energy");	
+			ds_grid_add(list,0,0,"如果在恰到好处的时候闪避了攻击，热度会不减反增");	
 	
 
 			return(list);
@@ -173,7 +162,7 @@ function sysList_cn(argument0) {
 	
 		case 015:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"Extra energy is lost over time");	
+			ds_grid_add(list,0,0,"不过使用攻击消减他们的霸体槽会让他们受创甚至眩晕！");	
 	
 
 
@@ -182,7 +171,7 @@ function sysList_cn(argument0) {
 	
 		case 016:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"Hold down W while in air to glide to remote platforms");	
+			ds_grid_add(list,0,0,"在空中按着W能进行滑行！");	
 	
 			return(list);
 		break;
