@@ -7,7 +7,7 @@ function enemy_dizzyCheck(){
 		hitstun=30;
 		effect_create_above(ef_ellipse,x,y,1,c_yellow);
 		var force=instance_create_layer(x,y,"Boxes",force_directional);
-		force.angle=90-player.facing*90;force.spd=10;force.owner=id;force.inc=-1;
+		force.angle=90-obj_player.facing*90;force.spd=10;force.owner=id;force.inc=-1;
 		with(force){alarm_set(0,10);}
 		ds_list_add(forces,force);
 	}
@@ -25,7 +25,7 @@ function enemy_dizzyCheck(){
 		hitstun=180;
 		effect_create_above(ef_ellipse,x,y,1,c_yellow);
 		var force=instance_create_layer(x,y,"Boxes",force_directional);
-		force.angle=90-player.facing*90;force.spd=10;force.owner=id;force.inc=-1;
+		force.angle=90-obj_player.facing*90;force.spd=10;force.owner=id;force.inc=-1;
 		with(force){alarm_set(0,10);}
 		ds_list_add(forces,force);
 

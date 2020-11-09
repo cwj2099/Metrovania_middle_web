@@ -763,7 +763,7 @@
     {"folderPath":"folders/Scripts/objExclusive/enemies/obj_swordsman/actions.yy","order":3,"resourceVersion":"1.0","name":"actions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/objExclusive/enemies/obj_enemy_spike.yy","order":6,"resourceVersion":"1.0","name":"obj_enemy_spike","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/objExclusive/enemies/obj_enemy_spike/actions.yy","order":2,"resourceVersion":"1.0","name":"actions","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Scripts/objExclusive/enemies/obj_enemy_froggy.yy","order":7,"resourceVersion":"1.0","name":"obj_enemy_froggy","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/GamePlay/obj_enemy_froggy.yy","order":17,"resourceVersion":"1.0","name":"obj_enemy_froggy","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/objExclusive/enemies/obj_enemy_froggy/actions.yy","order":3,"resourceVersion":"1.0","name":"actions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/objExclusive/enemies/obj_enemy_mosquito.yy","order":8,"resourceVersion":"1.0","name":"obj_enemy_mosquito","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/objExclusive/enemies/obj_enemy_mosquito/actions.yy","order":3,"resourceVersion":"1.0","name":"actions","tags":[],"resourceType":"GMFolder",},
