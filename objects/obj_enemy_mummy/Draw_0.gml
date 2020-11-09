@@ -10,13 +10,22 @@ draw_self();
 draw_outline(1);
 if(stunned){draw_solid_color(1.0,1.0,1.0);x-=sX;y-=sY;}
 
-if(hitstun>0){
+if(alarm_get(5)>0){
+sprite_index=spr_fireDemon_stun;
+image_index=0;
 if(hitstun%5==0){effect_create_above(ef_star,x+irandom_range(-20,20),y-60,1,c_yellow);}
  if(hurtbox.hitted){}
  else {}
 }
 
+else if(alarm_get(7)>0){
+sprite_index=spr_fireDemon_hit;
+
+}
+
+
 else {
+	sprite_index=spr_fireDemon;
  if(status==states.neutral){
 	 
   if(player==undefined){}

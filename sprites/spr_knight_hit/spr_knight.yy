@@ -63,7 +63,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_knight","path":"sprites/spr_knight/spr_knight.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_knight",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },

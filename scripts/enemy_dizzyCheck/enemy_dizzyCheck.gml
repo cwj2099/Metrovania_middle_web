@@ -2,9 +2,9 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function enemy_dizzyCheck(){
 	if(ssp<=0&&alarm_get(7)<=0){
-		alarm_set(7,50);
+		alarm_set(7,30);
 		global.hitpause1=true;
-		hitstun=50;
+		hitstun=30;
 		effect_create_above(ef_ellipse,x,y,1,c_yellow);
 		var force=instance_create_layer(x,y,"Boxes",force_directional);
 		force.angle=90-player.facing*90;force.spd=10;force.owner=id;force.inc=-1;

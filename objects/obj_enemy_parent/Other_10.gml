@@ -32,7 +32,7 @@
 		Sp=max(Sp,0);
 		stunned=true;
 		alarm_set(4,2);
-		if(!steel){hitstun=hurtbox.stun;}
+		if(!steel){hitstun=hurtbox.stun;vspd=0;hspd=0;}
 	
 
 

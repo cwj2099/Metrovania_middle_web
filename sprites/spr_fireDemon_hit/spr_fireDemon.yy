@@ -76,7 +76,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_fireDemon","path":"sprites/spr_fireDemon/spr_fireDemon.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_fireDemon",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },

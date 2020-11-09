@@ -4,7 +4,7 @@ event_inherited();
 image_xscale=facing;
 image_yscale=1;
 
-if(hitstun>0){
+if(alarm_get(5)>0){
 	if(hitstun%5==0){effect_create_above(ef_star,x+irandom_range(-20,20),y-60,1,c_yellow);}
 	sprite_index=spr_swordsman_staggered;
 	image_index=0;
