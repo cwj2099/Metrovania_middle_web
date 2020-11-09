@@ -16,7 +16,7 @@ with(player){
 		dX=x-other.door2.x;
 		dY=y-other.door2.y;
 		room_goto(room_test);
-		write("spawn",2);
+		write("spawn", 2);
 	}
 }
 
