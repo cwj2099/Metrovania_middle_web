@@ -11,6 +11,13 @@ with(player){
 		room_goto(room_test1);
 		write("spawn",1);
 	}
+	
+	if(place_meeting(x,y,other.door2)){
+		dX=x-other.door2.x;
+		dY=y-other.door2.y;
+		room_goto(room_test_branch1);
+		write("spawn",1);
+	}
 }
 
 
