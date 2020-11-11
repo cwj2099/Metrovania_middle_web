@@ -139,6 +139,7 @@
     {"id":{"name":"spr_fire_wall","path":"sprites/spr_fire_wall/spr_fire_wall.yy",},"order":18,},
     {"id":{"name":"spr_player_real","path":"sprites/spr_player_real/spr_player_real.yy",},"order":0,},
     {"id":{"name":"spr_npc_1","path":"sprites/spr_npc_1/spr_npc_1.yy",},"order":1,},
+    {"id":{"name":"room_test_branch1","path":"rooms/room_test_branch1/room_test_branch1.yy",},"order":7,},
     {"id":{"name":"spr_npc_2","path":"sprites/spr_npc_2/spr_npc_2.yy",},"order":2,},
     {"id":{"name":"spr_npc_3","path":"sprites/spr_npc_3/spr_npc_3.yy",},"order":3,},
     {"id":{"name":"spr_npc_4","path":"sprites/spr_npc_4/spr_npc_4.yy",},"order":4,},
@@ -463,6 +464,7 @@
     {"id":{"name":"obj_option3","path":"objects/obj_option3/obj_option3.yy",},"order":3,},
     {"id":{"name":"obj_option4","path":"objects/obj_option4/obj_option4.yy",},"order":4,},
     {"id":{"name":"event_office_1","path":"objects/event_office_1/event_office_1.yy",},"order":0,},
+    {"id":{"name":"obj_gManager_test_branch1","path":"objects/obj_gManager_test_branch1/obj_gManager_test_branch1.yy",},"order":8,},
     {"id":{"name":"obj_switch4","path":"objects/obj_switch4/obj_switch4.yy",},"order":26,},
     {"id":{"name":"spr_ovelMan_attack","path":"sprites/spr_ovelMan_attack/spr_ovelMan_attack.yy",},"order":1,},
     {"id":{"name":"event_master_office1","path":"objects/event_master_office1/event_master_office1.yy",},"order":1,},
@@ -709,6 +711,7 @@
     {"name":"room_sectionA","path":"rooms/room_sectionA/room_sectionA.yy",},
     {"name":"mapping","path":"rooms/mapping/mapping.yy",},
     {"name":"room_normal_office","path":"rooms/room_normal_office/room_normal_office.yy",},
+    {"name":"room_test_branch1","path":"rooms/room_test_branch1/room_test_branch1.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
