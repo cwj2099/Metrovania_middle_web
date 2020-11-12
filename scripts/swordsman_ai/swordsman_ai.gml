@@ -10,7 +10,7 @@ function swordsman_ai() {
 				break;
 			}
 		}
-		if(hurtbox.hitted){status=states.alert;player=instance_find(obj_player,0);}
+		if(stunned){status=states.alert;player=instance_find(obj_player,0);}
 	}
 
 	else{

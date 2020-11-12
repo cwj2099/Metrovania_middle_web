@@ -10,7 +10,7 @@ function zombie_ai() {
 				break;
 			}
 		}
-		if(hurtbox.hitted){player=instance_find(obj_player,0);}
+		if(stunned){player=instance_find(obj_player,0);}
 	}
 
 	else{

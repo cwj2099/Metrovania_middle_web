@@ -9,7 +9,7 @@ function knight_ai() {
 				break;
 			}
 		}
-		if(hurtbox.hitted){
+		if(stunned){
 			status=states.alert;
 			player=instance_find(obj_player,0);
 			movestun=-1;
@@ -42,12 +42,11 @@ function knight_ai() {
 			//if I'm very close to the player
 			if(abs(player.x-x)<=75){	
 				clear_hitbox();
-				if(player.y>y){
-					status=states.attack2;
-				}
-				else{
+				if(chain==0||chain==1){
 					status=states.attack1;
+					chain++;
 				}
+				else{status=states.attack2;chain=0;}
 				movestun=-1;
 			}
 

@@ -547,7 +547,7 @@
     {"id":{"name":"obj_enemy_swordsman","path":"objects/obj_enemy_swordsman/obj_enemy_swordsman.yy",},"order":5,},
     {"id":{"name":"obj_enemy_bandit","path":"objects/obj_enemy_bandit/obj_enemy_bandit.yy",},"order":6,},
     {"id":{"name":"obj_enemy_mummy","path":"objects/obj_enemy_mummy/obj_enemy_mummy.yy",},"order":7,},
-    {"id":{"name":"obj_enemy_kinght","path":"objects/obj_enemy_kinght/obj_enemy_kinght.yy",},"order":8,},
+    {"id":{"name":"obj_enemy_knight","path":"objects/obj_enemy_knight/obj_enemy_knight.yy",},"order":8,},
     {"id":{"name":"obj_enemy_stoolDestroyer","path":"objects/obj_enemy_stoolDestroyer/obj_enemy_stoolDestroyer.yy",},"order":9,},
     {"id":{"name":"obj_projectile_parent","path":"objects/obj_projectile_parent/obj_projectile_parent.yy",},"order":1,},
     {"id":{"name":"obj_enemy_upperbeam","path":"objects/obj_enemy_upperbeam/obj_enemy_upperbeam.yy",},"order":10,},

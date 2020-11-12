@@ -16,7 +16,8 @@ mSsp=mSp/4;
 ssp=mSsp;
 facing=sign(image_xscale);
 player=undefined;
-search=500;
+search=100;
+chain=0;
 
 steel=true;
 
