@@ -82,9 +82,7 @@ if(switch3.status){
 
 if(switch4.status){
 	switch4.status=false;
-	dX=0;
-	dY=0;
-	var fade=instance_create_layer(x,y,"Boxes",event_fade_out);
-	fade.groom=room_test;
-	write("spawn",2);
+	with(obj_gameManager){event_user(0); }
 }
+
+

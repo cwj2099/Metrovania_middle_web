@@ -6,3 +6,6 @@ oX=x-320;
 oY=y-180;
 visible=true;
 persistent=true;
+revealed=true;
+portal=false;
+pRoom=undefined;

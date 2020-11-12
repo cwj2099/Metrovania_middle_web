@@ -1,11 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+x=camera_get_view_x(view_camera[0])+camera_get_view_width(view_camera[0])/2;
+y=camera_get_view_y(view_camera[0])+camera_get_view_height(view_camera[0])/2;
 
 /////////////////////////////////
 //ui's selection and result
 ////////////////////////////////
+//normal page
 if(layer_get_visible("Pause1")){
 
 	if(global.input_dir){//if any direction is triggered
@@ -39,7 +41,38 @@ if(layer_get_visible("Pause1")){
 	
 	
 }
+//map mode
+else if(layer_get_visible("Pause3")){
+	rX=lerp(rX,Mselected.oX,.5);
+	rY=lerp(rY,Mselected.oY,.5);
+	//show_debug_message("mapping");
+	if(global.input_no){
+		unpause();
+	}
+	//select loop
+	if(global.input_dir){//if any direction is triggered
+		event_user(1);
+	}
+	
+	//back to main room
+	if(global.input_X_p){
+		unpause();
+		room_goto(room_player_test);
+		write("spawn",2);
+		obj_player.dX=0;
+		obj_player.dY=0;
+	}
+	//go to selected room
+	if(global.input_ok){
+		unpause();
+		room_goto(Mselected.pRoom);
+		write("spawn",0);
+		obj_player.dX=0;
+		obj_player.dY=0;
+	}
+}
 
+//if detail page
 if(layer_get_visible("Pause5")){
 	if(global.input_no){
 		if(!detail){

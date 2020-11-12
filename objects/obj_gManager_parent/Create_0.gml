@@ -59,8 +59,7 @@ op=0;//option id
 selection=-1;//result
 global.oselected=option1;//indicator
 
-rX=320;
-rY=180;
+piece=piece001;
 
 
 

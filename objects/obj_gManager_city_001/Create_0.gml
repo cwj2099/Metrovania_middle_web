@@ -22,5 +22,4 @@ if(!load("manager_city_001_dia1_read")){
 	talking=true;
 }
 
-rX=409;
-rY=223;
+piece=piece001;

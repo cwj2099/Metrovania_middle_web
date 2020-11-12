@@ -24,7 +24,7 @@ ds_grid_set(buttons,0,1,button2);
 ds_grid_set(buttons,0,2,button3);
 
 global.Pselected=button1;
-
+Mselected=piece001;
 update_clues();
 detail=false;
 

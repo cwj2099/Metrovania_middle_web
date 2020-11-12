@@ -4,7 +4,7 @@ with(player){
 	if(load("spawn")==0){
 		x=other.respawn.x;
 		y=other.respawn.y;
-		
+		instance_create_layer(x,y,layer,event_fade_in);
 	}
 	else if(load("spawn")==1){
 		x=other.spawn1.x;

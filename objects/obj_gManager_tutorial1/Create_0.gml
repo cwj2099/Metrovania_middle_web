@@ -4,6 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-
-rX=441;
-rY=214;
+piece=piece002;

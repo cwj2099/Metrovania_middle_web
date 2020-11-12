@@ -5,5 +5,4 @@
 event_inherited();
 
 
-rX=393;
-rY=194;
+piece=piece003;

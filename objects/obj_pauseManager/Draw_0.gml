@@ -4,8 +4,7 @@
 if(global.inGame){
 	
 if(layer_get_visible("Pause1")){
-	x=camera_get_view_x(view_camera[0])+camera_get_view_width(view_camera[0])/2;
-	y=camera_get_view_y(view_camera[0])+camera_get_view_height(view_camera[0])/2;
+	
 	oX=camera_get_view_x(view_camera[0]);
 	oY=camera_get_view_y(view_camera[0]);
 	back.x=x;back.y=y;
@@ -31,6 +30,11 @@ if(layer_get_visible("Pause1")){
 	draw_set_color(c_red);
 	draw_circle(x+mX,y+mY,3,false);
 	if(world==0){draw_sprite(spr_noMap,0,x,y);}
+}
+else if(layer_get_visible("Pause3")){
+	//show_debug_message(Mselected.x);
+	draw_sprite(spr_selectRoom,0,Mselected.x,Mselected.y);
+	//draw_circle(Mselected.x,Mselected.y,10,false);
 }
 if(layer_get_visible("Pause5")){
 	

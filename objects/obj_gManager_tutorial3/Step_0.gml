@@ -15,19 +15,12 @@ with(player){
 	if(place_meeting(x,y,other.door2)){
 		dX=x-other.door2.x;
 		dY=y-other.door2.y;
-		room_goto(room_test);
-		write("spawn", 2);
+		room_goto(room_city_portal1);
+		write("spawn", 1);
 	}
 }
 
 
-if(switch1.status){
-	switch1.status=false;
-	dX=0;
-	dY=0;
-	var fade=instance_create_layer(x,y,"Boxes",event_fade_out);
-	fade.groom=room_test;
-	write("spawn",2);
-}
+
 
 
