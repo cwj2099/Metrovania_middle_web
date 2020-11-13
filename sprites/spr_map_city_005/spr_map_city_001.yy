@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_map_city_001","path":"sprites/spr_map_city_001/spr_map_city_001.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_map_city_001",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },

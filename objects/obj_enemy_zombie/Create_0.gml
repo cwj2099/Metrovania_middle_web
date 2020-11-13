@@ -14,7 +14,7 @@ Hp=100;
 mSp=0;
 facing=sign(image_xscale);
 player=undefined;
-search=500;
+search=250;
 
 
 

@@ -16,6 +16,7 @@ chain_count=0;
 critical=true;
 mSsp=mSp/4;
 ssp=mSsp;
-
+search=100;
+player=undefined;
 onGround=false;
 onPlatform=false;

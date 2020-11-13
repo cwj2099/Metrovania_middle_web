@@ -10,9 +10,9 @@ if(Hp<=0){
 	exit;
 }
 
-
+slowE_ai();
 if(hitstun<=0){
-	slowE_ai();
+	
 	slowE_move();
 	slowE_action();
 }

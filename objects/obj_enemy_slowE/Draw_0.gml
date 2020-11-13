@@ -24,8 +24,9 @@ else{
 	if(status==states.movement1){
 		sprite_index=slowE_retreat;
 	}
-}
 
+}
+if(status=states.alert){draw_sprite(spr_alert,0,x+sprite_width/2,y-sprite_height/2);}
 if(stunned){var sX=irandom_range(-5,5);var sY=irandom_range(-5,5);x+=sX;y+=sY;}
 
 if(global.ePause){image_speed=0;}

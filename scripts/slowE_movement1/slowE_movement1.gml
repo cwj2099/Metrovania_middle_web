@@ -11,8 +11,8 @@ function slowE_movement1(){
 		if(true){
 				clear_force();
 				var force=instance_create_layer(x,y,"Boxes",force_directional);
-				force.angle=90+90*facing;force.owner=id;with(force){alarm_set(0,30);}
-				force.spd=5;force.inc=-0.01;
+				force.angle=90+90*facing;force.owner=id;with(force){alarm_set(0,15);}
+				force.spd=10;force.inc=-0.01;
 
 				ds_list_add(forces,force);
 
