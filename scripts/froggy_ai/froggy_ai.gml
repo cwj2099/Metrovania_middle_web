@@ -2,7 +2,7 @@ function froggy_ai() {
 	//if no player, try to find
 
 	if(player==undefined){
-		for(var i=0;i<100;i++){
+		/*for(var i=0;i<100;i++){
 			if(position_meeting(x+i*facing,y,obj_player)){
 				player=instance_find(obj_player,0);
 				status=states.alert;
@@ -10,7 +10,10 @@ function froggy_ai() {
 				break;
 			}
 		}
-		if(hurtbox.hitted){player=instance_find(obj_player,0);}
+		if(hurtbox.hitted){player=instance_find(obj_player,0);}*/
+		if((point_distance(x,y,obj_player.x,obj_player.y)<=search)){
+			player=instance_find(obj_player,0);
+		}
 	}
 
 	else{

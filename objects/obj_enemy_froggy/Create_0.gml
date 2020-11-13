@@ -13,7 +13,7 @@ spd_run=2.5;
 Hp=20;
 facing=sign(image_xscale);
 player=undefined;
-search=500;
+search=200;
 
 
 

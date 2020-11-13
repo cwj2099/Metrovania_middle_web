@@ -38,6 +38,7 @@ if(global.input_ok||global.input_start){
 			if(load("started")){
 				instance_create_layer(0,0,"Instances",obj_player);
 				global.save_data=ds_map_secure_load(global.file_name);
+				write("player_mp",0);
 				room_goto(load("room"));
 			}
 			

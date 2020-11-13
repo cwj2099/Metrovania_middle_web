@@ -19,3 +19,13 @@ if(contact4.status){
 	dia=015;
 	draw_text_box(dia,contact4.x,contact4.y);
 }
+
+if(contact5.status){
+	dia=019;
+	draw_text_box(dia,contact5.x,contact5.y);
+}
+
+if(contact6.status){
+	dia=020;
+	draw_text_box(dia,contact6.x,contact6.y);
+}

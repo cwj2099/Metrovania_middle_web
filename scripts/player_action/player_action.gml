@@ -17,7 +17,7 @@ function player_action() {
 		else if(global.input_left_d){facing=-1;}
 		else if(global.input_right_d){facing=1;}
 	
-		if((global.input_up_d||global.input_L_d)&&!(onGround||onPlatform)){status=states.gliding;}
+		if((global.input_up_d||global.input_L_d)&&!(onGround||onPlatform)&&(load("glide_switch"))){status=states.gliding;}
 		else{status=states.neutral;}
 	
 		//attack button pressed

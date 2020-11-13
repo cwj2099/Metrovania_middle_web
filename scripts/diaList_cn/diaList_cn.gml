@@ -678,5 +678,106 @@ function diaList_cn(argument0) {
 			ds_grid_add(list,1,0,spr_avatar_blank);
 			return(list);
 		break;
+		
+		case 041:
+			ds_grid_resize(list,4,3)
+			ds_grid_add(list,0,2,"说不说？。");
+			ds_grid_add(list,0,1,"怎么可能会说！");
+			ds_grid_add(list,0,0,"那让我们开始把");
+		
+			ds_grid_add(list,2,2,spr_avatar_blank);
+			ds_grid_add(list,2,1,spr_npc_5);
+			ds_grid_add(list,2,0,spr_avatar_blank);
+			
+			ds_grid_add(list,1,2,spr_player_real);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_player_real);
+			return(list);
+		break;
+		
+		case 042:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"我说我说");
+
+		
+			ds_grid_add(list,2,0,spr_npc_5);
+
+			
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;
+		
+		case 043:
+			ds_grid_resize(list,4,3)
+			ds_grid_add(list,0,2,"说不说？。");
+			ds_grid_add(list,0,1,"怎么可能会说！");
+			ds_grid_add(list,0,0,"那让我们开始把");
+		
+			ds_grid_add(list,2,2,spr_avatar_blank);
+			ds_grid_add(list,2,1,spr_npc_4);
+			ds_grid_add(list,2,0,spr_avatar_blank);
+			
+			ds_grid_add(list,1,2,spr_player_real);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_player_real);
+			return(list);
+		break;
+		
+		case 044:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"我说我说");
+
+		
+			ds_grid_add(list,2,0,spr_npc_4);
+
+			
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;
+		case 045:
+			ds_grid_resize(list,4,3)
+			ds_grid_add(list,0,2,"说不说？。");
+			ds_grid_add(list,0,1,"啊，我说我说");
+			ds_grid_add(list,0,0,"很好");
+		
+			ds_grid_add(list,2,2,spr_avatar_blank);
+			ds_grid_add(list,2,1,spr_npc_2);
+			ds_grid_add(list,2,0,spr_avatar_blank);
+			
+			ds_grid_add(list,1,2,spr_player_real);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_player_real);
+			return(list);
+		break;
+		
+		case 046:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"我说我说");
+
+		
+			ds_grid_add(list,2,0,spr_npc_2);
+
+			
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;
+		
+		case 047:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"回一趟现实报告一下吧");
+
+		
+			ds_grid_add(list,2,0,spr_avatar_blank);
+
+			
+			ds_grid_add(list,1,0,spr_player);
+
+			return(list);
+		break;
 	}
+	
+		
 }

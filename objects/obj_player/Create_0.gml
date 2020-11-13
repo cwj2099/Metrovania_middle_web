@@ -71,8 +71,8 @@ with(hurtbox){image_xscale=.7;image_yscale=1.5;}
 level=0;
 enforced=false;
 damage_scaling=1;
-fire=instance_create_layer(x,y,"Instances",obj_effect_fire);fire.visible=false;
-fire2=instance_create_layer(x,y,"Instances",obj_effect_fire);fire2.visible=false;fire2.sprite_index=spr_flame;
+if(object_index==obj_player){fire=instance_create_layer(x,y,"Instances",obj_effect_fire);fire.visible=false;fire.player=id;
+fire2=instance_create_layer(x,y,"Instances",obj_effect_fire);fire2.visible=false;fire2.sprite_index=spr_flame;fire2.player=id}
 
 //birth pause
 global.noInput=true;

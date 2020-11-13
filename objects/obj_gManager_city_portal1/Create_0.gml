@@ -4,5 +4,5 @@
 // Inherit the parent event
 event_inherited();
 switch1.sprite_index=spr_charged;
-
+wall1=undefined;
 piece=piece001;

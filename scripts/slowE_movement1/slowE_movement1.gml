@@ -6,7 +6,7 @@ function slowE_movement1(){
 	//if it's the first frame
 	if(action_status==aStates.off||movestun==-1){
 		action_status=aStates.startUp;
-		movestun=28;//set the startUp the 10 frame
+		movestun=40;//set the startUp the 10 frame
 		facing=sign(player.x-x);
 		if(true){
 				clear_force();

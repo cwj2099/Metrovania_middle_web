@@ -29,7 +29,7 @@
     {"isDnD":false,"eventNum":4,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_gameManager","path":"objects/obj_gameManager/obj_gameManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":5,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_gameManager","path":"objects/obj_gameManager/obj_gameManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":116,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_gameManager","path":"objects/obj_gameManager/obj_gameManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":90,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_gameManager","path":"objects/obj_gameManager/obj_gameManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":112,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_gameManager","path":"objects/obj_gameManager/obj_gameManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":5,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_gameManager","path":"objects/obj_gameManager/obj_gameManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_gameManager","path":"objects/obj_gameManager/obj_gameManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],

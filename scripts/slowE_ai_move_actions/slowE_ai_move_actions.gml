@@ -23,7 +23,7 @@ function slowE_ai(){
 	if(dif>400){
 		status=states.neutral;
 	}
-	else if(dif<150){
+	else if(dif<100){
 		if(status==states.neutral){
 			status=states.movement1;
 		}
@@ -73,7 +73,7 @@ function slowE_action(){
 		slowE_attack1();
 	}
 	if(status==states.pre1){	
-		if(dif<125){
+		if(dif<50){
 			status=states.attack1;
 			movestun=-1;
 		}

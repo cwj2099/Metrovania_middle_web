@@ -26,5 +26,14 @@ if(switch1.status){
 	with(obj_gameManager){event_user(0);}
 }
 
+if(!load("room_city_portal1_dia1_read")){
+	talking=true;
+	dia=047;
+	write("room_city_portal1_dia1_read",true);
+}
 
+if(!load("player_room_event1_triggered")){
+	if(wall1==undefined){wall1=instance_create_layer(620,280,"Instances",obj_lockDoor);}
+}
+	
 }

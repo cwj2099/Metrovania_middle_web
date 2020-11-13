@@ -23,3 +23,8 @@ critical=false;
 grav=0.7;
 
 steel=true;
+
+hurtbox=instance_create_layer(x,y,"Instances",obj_hurtbox);
+hurtbox.owner=id;hurtbox.side=side;
+hurtbox.image_xscale=2.4;
+hurtbox.image_yscale=3;

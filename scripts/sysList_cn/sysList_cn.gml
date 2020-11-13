@@ -170,7 +170,8 @@ function sysList_cn(argument0) {
 		break;
 	
 		case 016:
-			ds_grid_resize(list,4,1)
+			ds_grid_resize(list,4,2)
+			ds_grid_add(list,0,1,"滑翔翼解锁");	
 			ds_grid_add(list,0,0,"在空中按着W能进行滑行！");	
 	
 			return(list);
@@ -192,6 +193,24 @@ function sysList_cn(argument0) {
 			ds_grid_add(list,0,1,"空中按住S再按J使出下砸拳");
 			ds_grid_add(list,0,0,"连按A或者D两下再按J使出冲刺拳");
 		
+			return(list);
+		break;
+		
+		case 019:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"特殊攻击更容易击晕敌人，同时也是一种移动手段");	
+	
+
+
+			return(list);
+		break;
+		
+		case 020:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"你可以在普通攻击中随意穿插特殊攻击来灵活的战斗");	
+	
+
+
 			return(list);
 		break;
 

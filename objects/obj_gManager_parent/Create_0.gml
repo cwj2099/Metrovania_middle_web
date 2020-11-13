@@ -33,6 +33,7 @@ contact2=instance_find(obj_contact2,0);
 contact3=instance_find(obj_contact3,0);
 contact4=instance_find(obj_contact4,0);
 contact5=instance_find(obj_contact5,0);
+contact6=instance_find(obj_contact6,0);
 
 option1=instance_create_layer(100,60,"Managers",obj_option1);
 option2=instance_create_layer(280,60,"Managers",obj_option1);
