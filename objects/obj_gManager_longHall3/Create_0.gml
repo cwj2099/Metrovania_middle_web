@@ -3,6 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
+write("piece012_revealed",true);
 piece=piece012;
 
 

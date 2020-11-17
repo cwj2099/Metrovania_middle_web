@@ -3,6 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
+write("piece011_revealed",true);
 piece=piece011;
 wall1=undefined;
 boss1=undefined;

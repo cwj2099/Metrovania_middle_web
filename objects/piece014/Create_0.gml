@@ -3,3 +3,4 @@
 
 // Inherit the parent event
 event_inherited();
+sw="piece014_revealed";

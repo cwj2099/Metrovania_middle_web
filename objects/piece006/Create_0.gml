@@ -3,5 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
+sw="piece006_revealed";
 portal=true;
 pRoom=room_city_portal3;

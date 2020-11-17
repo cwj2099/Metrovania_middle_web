@@ -86,7 +86,7 @@ if(layer_get_visible("Pause5")){
 
 	}
 	
-	if(global.input_dir&&!detail){//if any direction is triggered
+	if(global.input_dir&&!detail&&ds_list_size(pRooms)>1){//if any direction is triggered
 		global.Pselected=uiSelect(tags,global.Pselected);
 	}
 	

@@ -5,4 +5,5 @@
 event_inherited();
 switch1.sprite_index=spr_charged;
 wall1=undefined;
+write("piece001_revealed",true);
 piece=piece001;

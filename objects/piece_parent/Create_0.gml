@@ -9,3 +9,4 @@ persistent=true;
 revealed=true;
 portal=false;
 pRoom=undefined;
+sw="piece002_revealed";

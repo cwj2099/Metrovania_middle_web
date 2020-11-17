@@ -4,5 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-
+write("piece004_revealed",true);
 piece=piece004;
