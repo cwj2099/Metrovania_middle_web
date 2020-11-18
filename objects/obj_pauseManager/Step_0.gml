@@ -10,6 +10,7 @@ y=camera_get_view_y(view_camera[0])+camera_get_view_height(view_camera[0])/2;
 //normal page
 if(layer_get_visible("Pause1")){
 
+
 	if(global.input_dir){//if any direction is triggered
 		global.Pselected=uiSelect(buttons,global.Pselected);
 	}
