@@ -33,7 +33,7 @@ function player_dashSlash() {
 					hitbox.side=side;
 				
 					//angle,spd, life,inc
-					var push_data=array(90-80*facing,13,20,-.5);
+					var push_data=array(90-80*facing,5,20,-.25);
 					hitbox.push_data=push_data;
 					hitbox.dir=facing;
 				

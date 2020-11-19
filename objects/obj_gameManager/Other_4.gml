@@ -46,7 +46,7 @@ if(layer_exists("Background")){
 
 self.layer=layer_get_id("Managers");//put self input manager layer
 camera_set_view_size(view_camera[0],640,360);
-window_set_size(640,360);
+//window_set_size(640,360);
 if (!view_enabled){
    view_visible[0] = true;
    view_enabled = true;
@@ -59,6 +59,7 @@ show_debug_message("Swithing manager");
 if(manager.type="game"){
 	//entering game
 	if(!global.inGame){
+		instance_create_layer(x,y,"Instances",event_fade_in);
 		global.noInput=true;
 		global.ePause=true;
 		alarm_set(1,60);

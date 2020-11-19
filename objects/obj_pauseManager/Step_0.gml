@@ -29,7 +29,10 @@ if(layer_get_visible("Pause1")){
 			case button3:
 				global.paused=false;
 				ds_map_secure_save(global.save_data,global.file_name);
-				room_goto(room_title);
+				//room_goto(room_title);
+				var fade=instance_create_layer(x,y,"Instances",event_fade_out_title);
+				fade.groom=room_title;
+				//audio_stop_all();
 			break;
 
 		}

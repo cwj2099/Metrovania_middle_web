@@ -6,6 +6,7 @@ image_xscale=facing;
 if(level>2){fire.visible=true;}else{fire.visible=false;}
 if(level>1){fire2.visible=true}else{fire2.visible=false;}
 if(level>0){draw_outline_color(3,1,0,0);draw_outline_color(2,1,.5,0);}
+else{draw_outline_color(2,1,.5,0);}
 
 if(shadowing){
 	for(var i=0;i<5;i++){

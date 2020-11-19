@@ -8,7 +8,7 @@ interactable=collision_rectangle(x-50,y-50,x+50,y+50,obj_player,false,true);
 if(abs(obj_player.x-x)<100){facing=sign(obj_player.x-x);}
 
 //if player triggered the switch
-if(interactable&&global.input_up_p){
+if(interactable&&(global.input_up_p||global.input_interact)){
 	status=true;
 	
 	manager.talking=true;

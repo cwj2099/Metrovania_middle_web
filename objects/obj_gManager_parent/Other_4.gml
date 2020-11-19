@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+
 with(player){
 	if(load("spawn")==0){
 		x=other.respawn.x;

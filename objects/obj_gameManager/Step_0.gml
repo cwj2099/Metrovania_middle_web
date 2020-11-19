@@ -27,6 +27,7 @@ if(global.inGame){
 	}
 	
 	if(load("player_hp")<=0&&manager.player.status!=states.death){
+		audio_stop_all();
 		global.slow=true;
 		global.noInput=true;
 		alarm_set(1,15);

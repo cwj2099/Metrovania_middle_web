@@ -2,7 +2,9 @@
 // You can write your code in this editor
 
 // Inherit the parent event
+
 event_inherited();
+
 type="title";
 
 button1=instance_find(obj_button1,0);

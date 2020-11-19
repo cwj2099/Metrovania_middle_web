@@ -40,6 +40,7 @@ function input_create() {
 	global.input_select=false;
 
 	global.input_ok=false;
+	global.input_interact=false;
 	global.input_no=false;
 
 

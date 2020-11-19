@@ -20,7 +20,24 @@ function mummy_attack1() {
     
 	    //the move
 	    audio_play_sound(slash,5,false);
- 
+		hitbox=instance_create_layer(x+10*facing,y-20,"Boxes",obj_hitbox);
+
+		hitbox.owner=id;
+		hitbox.attack=2;
+		hitbox.stun=20;
+		hitbox.side=side;
+		//angle,spd, life,inc
+		var push_data=array(dir,10,10,-1);
+		hitbox.push_data=push_data;
+				
+		hitboxD_x=lengthdir_x(80,dir);
+		hitboxD_y=lengthdir_y(80,dir);
+		with(hitbox){
+		//alarm_set(0,15);
+		ds_list_add(white_list,other.hurtbox);
+		image_xscale=1;image_yscale=1;
+		}			
+					
 	    //change state
 	    action_status=aStates.duration;
 	    movestun=20;    

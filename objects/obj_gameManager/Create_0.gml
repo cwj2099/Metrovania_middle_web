@@ -3,12 +3,13 @@ This is the gameManager, this object incharges the process from title to game,
 as well as the pause of the game. 
 This is also going to deal with save and loading datas as well.
 */
-
+window_set_size(1280,720);
 input_create();//create the input variables
 universal_variables();
 record_default();
 if(file_exists(global.file_name)){global.save_data=ds_map_secure_load(global.file_name);}
 
+global.bgm=undefined;
 global.ePause=false;
 global.paused=false; //if the game is pause
 global.inGame=false; //if the game is in game or title screen

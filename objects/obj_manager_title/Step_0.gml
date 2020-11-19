@@ -24,22 +24,28 @@ if(global.input_ok||global.input_start){
 	switch (global.selected)
 	{
 		case button1:
-			instance_create_layer(0,0,"Instances",obj_player_real);
+			//instance_create_layer(0,0,"Instances",obj_player_real);
 			if(file_exists(global.file_name))
 			{file_delete(global.file_name);}
 			record_default();
 			write("started",true);
 			ds_map_secure_save(global.save_data,global.file_name);
+			//audio_stop_all();
 			
-			room_goto(load("room"));
+			//room_goto(load("room"));
+			var fade=instance_create_layer(x,y,"Instances",event_fade_out_title);
+			fade.groom=load("room");
 		break;
 		
 		case button2:
 			if(load("started")){
-				instance_create_layer(0,0,"Instances",obj_player);
+				
 				global.save_data=ds_map_secure_load(global.file_name);
 				write("player_mp",0);
-				room_goto(load("room"));
+				//room_goto(load("room"));
+				//audio_stop_all();
+				var fade=instance_create_layer(x,y,"Instances",event_fade_out_title);
+				fade.groom=load("room");
 			}
 			
 		break;

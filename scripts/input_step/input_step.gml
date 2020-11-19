@@ -50,8 +50,9 @@ function input_step() {
 	if(keyboard_check_pressed(vk_enter)||gamepad_button_check_pressed(0,gp_start)){global.input_start=true}else{global.input_start=false;}
 	if(keyboard_check_pressed(vk_tab)||gamepad_button_check_pressed(0,gp_select)){global.input_select=true}else{global.input_select=false;}
 
-	if(keyboard_check_pressed(vk_space)||gamepad_button_check_pressed(0,gp_face1)){global.input_ok=true}else{global.input_ok=false;}
-	if(keyboard_check_pressed(vk_escape)||gamepad_button_check_pressed(0,gp_face2)){global.input_no=true}else{global.input_no=false;}
+	if(keyboard_check_pressed(ord("J"))||gamepad_button_check_pressed(0,gp_face1)){global.input_ok=true}else{global.input_ok=false;}
+	if(keyboard_check_pressed(vk_space)||gamepad_button_check_pressed(0,gp_face1)){global.input_interact=true}else{global.input_interact=false;}
+	if(keyboard_check_pressed(ord("K"))||gamepad_button_check_pressed(0,gp_face2)){global.input_no=true}else{global.input_no=false;}
 
 
 	for(var i=array_length_1d(global.input_A_q)-1;i>0;i--){

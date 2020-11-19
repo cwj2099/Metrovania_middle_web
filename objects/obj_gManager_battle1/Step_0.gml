@@ -25,6 +25,8 @@ if(load("npc_MIB_fic_dia1_read")){
 			wall1=instance_create_layer(1260,400,"Instances",obj_lockDoor);
 		}
 		if(boss1==undefined){
+			audio_play_sound(bgm_battle2,10,true);
+			audio_sound_gain(bgm_battle2,1,1000);
 			boss1=instance_create_layer(460,400,"Instances",obj_enemy_swordsman);
 		}
 		else{
@@ -36,6 +38,7 @@ if(load("npc_MIB_fic_dia1_read")){
 	}
 	//if defeated
 	else{
+		audio_sound_gain(bgm_battle2,0,1000);
 		obj_npc_MIB_fic.x=bX;
 		//if there is wall, break the wall
 		if(wall1!=undefined){instance_destroy(wall1);wall1=undefined;}
