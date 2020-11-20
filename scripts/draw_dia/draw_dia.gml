@@ -30,7 +30,7 @@ function draw_dia(argument0) {
 	draw_sprite_ext(text[# 1,dia_counter-1],0,cX-125,cY-56,2,2,0,c_white,1);
 
 	//process to the next sentence by press
-	if((global.input_ok||global.input_start)&&!selecting){dia_counter--;}
+	if((global.input_ok||global.input_start)&&!selecting){dia_counter--;audio_play_sound(interact,5,false);}
 
 	//if it is option time!!!!!!!!!
 	if(selecting){

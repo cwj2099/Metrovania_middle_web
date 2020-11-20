@@ -2,7 +2,7 @@
 /// @param {array}    listOfUi      The array to manipulate
 /// @param {object}   currentId     The current selected id of the array
 function uiSelect_alter(argument0, argument1) {
-
+	
 	//owner: obj_gameManager
 	//event: every step
 	/*
@@ -24,7 +24,7 @@ function uiSelect_alter(argument0, argument1) {
 	}
 
 	if(global.input_up_p){
-
+audio_play_sound(move,5,false);
 		if(iY==0){iY=ds_grid_height(arr)-1;}
 		else{iY--;}
 		while(arr[# iX,iY].visible==false){
@@ -34,7 +34,7 @@ function uiSelect_alter(argument0, argument1) {
 	
 	}
 	else if(global.input_down_p){
-		
+		audio_play_sound(move,5,false);
 		if(iY==ds_grid_height(arr)-1){iY=0;}
 		else{iY++;}
 		while(arr[# iX,iY].visible==false){
@@ -44,7 +44,8 @@ function uiSelect_alter(argument0, argument1) {
 	
 	}
 
-	if(global.input_left_p){
+	else if(global.input_left_p){
+		audio_play_sound(move,5,false);
 		if(iX==0){iX=ds_grid_width(arr)-1;}
 		else{iX--;}
 		while(arr[# iY,iX].visible==false){
@@ -54,7 +55,7 @@ function uiSelect_alter(argument0, argument1) {
 	
 	}
 	else if(global.input_right_p){
-		
+		audio_play_sound(move,5,false);
 		if(iX==ds_grid_width(arr)-1){iX=0;}
 		else{iX++;}
 		while(arr[# iY,iX].visible==false){

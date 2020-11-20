@@ -11,7 +11,7 @@ function draw_sys_message(argument0) {
 	//the drawing
 	var cX=camera_get_view_width(view_camera[0])/2;//center x
 	var cY=camera_get_view_height(view_camera[0])/2;//center y
-
+	draw_sprite(spr_messaging,0,cX,cY)
 
 	draw_set_font(Font_button);
 	draw_set_halign(fa_middle);
@@ -21,7 +21,7 @@ function draw_sys_message(argument0) {
 	draw_text(cX,cY,text[# 0,dia_counter-1]);
 
 
-	if(global.input_ok||global.input_start){dia_counter--;}
+	if(global.input_ok||global.input_start){dia_counter--;audio_play_sound(interact,5,false);}
 	if(dia_counter==0){
 		dia_counter=-1;
 		//do this to prevent the flash screen

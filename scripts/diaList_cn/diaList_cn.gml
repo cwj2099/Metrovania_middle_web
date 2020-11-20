@@ -680,70 +680,123 @@ function diaList_cn(argument0) {
 		break;
 		
 		case 041:
-			ds_grid_resize(list,4,3)
-			ds_grid_add(list,0,2,"说不说？。");
-			ds_grid_add(list,0,1,"怎么可能会说！");
-			ds_grid_add(list,0,0,"那让我们开始把");
-		
-			ds_grid_add(list,2,2,spr_avatar_blank);
-			ds_grid_add(list,2,1,spr_npc_5);
+			ds_grid_resize(list,4,7)
+			ds_grid_add(list,0,6,"找到了，这位貌似是老总");
+			ds_grid_add(list,0,5,"你好，请问你大停电期间在做什么");
+			ds_grid_add(list,0,4,"你知道吗，有些东西是金钱也没法买到");
+			ds_grid_add(list,0,3,"额，先生，请问您大停电时在做什么？");
+			ds_grid_add(list,0,2,"我努力了15年建立的帝国，花了无数昼夜，赚取的财产也没法买到");
+			ds_grid_add(list,0,1,"（看来他的内心非常抗拒啊，这家伙果然有鬼）");
+			ds_grid_add(list,0,0,"我不知道你到底是买不到什么，不过看来我要用拳头获得我想要的东西了~");
+
+			ds_grid_add(list,2,6,spr_avatar_blank);
+			ds_grid_add(list,2,5,spr_avatar_blank);
+			ds_grid_add(list,2,4,spr_npc_5);
+			ds_grid_add(list,2,3,spr_avatar_blank);
+			ds_grid_add(list,2,2,spr_npc_5);
+			ds_grid_add(list,2,1,spr_avatar_blank);
 			ds_grid_add(list,2,0,spr_avatar_blank);
-			
-			ds_grid_add(list,1,2,spr_player_real);
-			ds_grid_add(list,1,1,spr_avatar_blank);
+
+			ds_grid_add(list,1,6,spr_player_real);
+			ds_grid_add(list,1,5,spr_player_real);
+			ds_grid_add(list,1,4,spr_avatar_blank);
+			ds_grid_add(list,1,3,spr_player_real);
+			ds_grid_add(list,1,2,spr_avatar_blank);
+			ds_grid_add(list,1,1,spr_player_real);
 			ds_grid_add(list,1,0,spr_player_real);
 			return(list);
 		break;
 		
 		case 042:
-			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"我说我说");
+			ds_grid_resize(list,4,7)
+			ds_grid_add(list,0,6,"我已经战胜你了，老实交代停电的30分钟你在干什么吧");
+			ds_grid_add(list,0,5,"金钱是无法换来真挚的友谊的");
+			ds_grid_add(list,0,4,"说得好，但这和你停电时在干嘛有啥关系");
+			ds_grid_add(list,0,3,"当时我一个人在洗手间，谁知道突然停电了，马桶的清洗功能就失灵了");
+			ds_grid_add(list,0,2,"。。。");
+			ds_grid_add(list,0,1,"如果我有一位挚友在身边，他一定会为我递上一卷上好的厕纸把");
+			ds_grid_add(list,0,0,"（精神界是不存在谎言的，所以他只是被困在了厕所里半小时，又嫌太丢人不敢交代吗）");
 
-		
-			ds_grid_add(list,2,0,spr_npc_5);
+			ds_grid_add(list,2,6,spr_avatar_blank);
+			ds_grid_add(list,2,5,spr_npc_5);
+			ds_grid_add(list,2,4,spr_avatar_blank);
+			ds_grid_add(list,2,3,spr_npc_5);
+			ds_grid_add(list,2,2,spr_avatar_blank);
+			ds_grid_add(list,2,1,spr_npc_5);
+			ds_grid_add(list,2,0,spr_avatar_blank);
 
-			
-			ds_grid_add(list,1,0,spr_avatar_blank);
+			ds_grid_add(list,1,6,spr_player_real);
+			ds_grid_add(list,1,5,spr_avatar_blank);
+			ds_grid_add(list,1,4,spr_player_real);
+			ds_grid_add(list,1,3,spr_avatar_blank);
+			ds_grid_add(list,1,2,spr_player_real);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_player_real);
+			return(list);
 
 			return(list);
 		break;
 		
 		case 043:
-			ds_grid_resize(list,4,3)
-			ds_grid_add(list,0,2,"说不说？。");
-			ds_grid_add(list,0,1,"怎么可能会说！");
-			ds_grid_add(list,0,0,"那让我们开始把");
-		
-			ds_grid_add(list,2,2,spr_avatar_blank);
-			ds_grid_add(list,2,1,spr_npc_4);
+			ds_grid_resize(list,4,7)
+			ds_grid_add(list,0,6,"你来了？");
+			ds_grid_add(list,0,5,"我来了");
+			ds_grid_add(list,0,4,"你不该来的");
+			ds_grid_add(list,0,3,"咳咳，这位是算命先生对吧，请问大停电的时候你在哪里呢？");
+			ds_grid_add(list,0,2,"我们在通过强制性措施帮助市场进行微观资金调控来保持现金流动，而我个人作为总负责人镇守调控中心来控制现金流动的方向");
+			ds_grid_add(list,0,1,"。。。我算是明白为什么助理不给我说你能力的全名了");
+			ds_grid_add(list,0,0,"我相信拳头会让你说话清楚一点");
+
+			ds_grid_add(list,2,6,spr_npc_4);
+			ds_grid_add(list,2,5,spr_avatar_blank);
+			ds_grid_add(list,2,4,spr_npc_4);
+			ds_grid_add(list,2,3,spr_avatar_blank);
+			ds_grid_add(list,2,2,spr_npc_4);
+			ds_grid_add(list,2,1,spr_avatar_blank);
 			ds_grid_add(list,2,0,spr_avatar_blank);
-			
-			ds_grid_add(list,1,2,spr_player_real);
-			ds_grid_add(list,1,1,spr_avatar_blank);
+
+			ds_grid_add(list,1,6,spr_avatar_blank);
+			ds_grid_add(list,1,5,spr_player_real);
+			ds_grid_add(list,1,4,spr_avatar_blank);
+			ds_grid_add(list,1,3,spr_player_real);
+			ds_grid_add(list,1,2,spr_avatar_blank);
+			ds_grid_add(list,1,1,spr_player_real);
 			ds_grid_add(list,1,0,spr_player_real);
 			return(list);
 		break;
 		
 		case 044:
-			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"我说我说");
+			ds_grid_resize(list,4,5)
 
-		
-			ds_grid_add(list,2,0,spr_npc_4);
+			ds_grid_add(list,0,4,"所以你们当时到底在干什么？");
+			ds_grid_add(list,0,3,"收保护费，然后我给各帮派分钱。");
+			ds_grid_add(list,0,2,"。。。");
+			ds_grid_add(list,0,1,"行把，这家伙应该不是我的目标了，毕竟这世界说不了谎");
+			ds_grid_add(list,0,0,"不过保护费什么的。。。交给其他同事来处理这人把");
 
-			
-			ds_grid_add(list,1,0,spr_avatar_blank);
 
+			ds_grid_add(list,2,4,spr_avatar_blank);
+			ds_grid_add(list,2,3,spr_npc_4);
+			ds_grid_add(list,2,2,spr_avatar_blank);
+			ds_grid_add(list,2,1,spr_avatar_blank);
+			ds_grid_add(list,2,0,spr_avatar_blank);
+
+
+			ds_grid_add(list,1,4,spr_player_real);
+			ds_grid_add(list,1,3,spr_avatar_blank);
+			ds_grid_add(list,1,2,spr_player_real);
+			ds_grid_add(list,1,1,spr_player_real);
+			ds_grid_add(list,1,0,spr_player_real);
 			return(list);
 		break;
 		case 045:
 			ds_grid_resize(list,4,3)
-			ds_grid_add(list,0,2,"说不说？。");
-			ds_grid_add(list,0,1,"啊，我说我说");
-			ds_grid_add(list,0,0,"很好");
+			ds_grid_add(list,0,2,"这位是老板娘吧，大停电的那段时间，你在做什么");
+			ds_grid_add(list,0,1,"我在工作，怎么了");
+			ds_grid_add(list,0,0,"精神世界没有谎言，这就排除了一个嫌疑人了。");
 		
 			ds_grid_add(list,2,2,spr_avatar_blank);
-			ds_grid_add(list,2,1,spr_npc_2);
+			ds_grid_add(list,2,1,spr_npc_3);
 			ds_grid_add(list,2,0,spr_avatar_blank);
 			
 			ds_grid_add(list,1,2,spr_player_real);
@@ -754,13 +807,13 @@ function diaList_cn(argument0) {
 		
 		case 046:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"我说我说");
+			ds_grid_add(list,0,0,"精神世界没有谎言，没必要再去问她了");
 
 		
-			ds_grid_add(list,2,0,spr_npc_2);
+			ds_grid_add(list,2,0,spr_avatar_blank);
 
 			
-			ds_grid_add(list,1,0,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_player_real);
 
 			return(list);
 		break;
@@ -773,7 +826,7 @@ function diaList_cn(argument0) {
 			ds_grid_add(list,2,0,spr_avatar_blank);
 
 			
-			ds_grid_add(list,1,0,spr_player);
+			ds_grid_add(list,1,0,spr_player_real);
 
 			return(list);
 		break;
@@ -786,11 +839,274 @@ function diaList_cn(argument0) {
 			ds_grid_add(list,2,0,spr_avatar_blank);
 
 			
-			ds_grid_add(list,1,0,spr_player);
+			ds_grid_add(list,1,0,spr_player_real);
+
+			return(list);
+		break;	
+		
+		
+		case 049:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"啊，果然还是不是很适应");
+
+		
+			ds_grid_add(list,2,0,spr_avatar_blank);
+
+			
+			ds_grid_add(list,1,0,spr_player_real);
 
 			return(list);
 		break;		
 		
+		case 050:
+			ds_grid_resize(list,4,8)
+			ds_grid_add(list,0,7,"你终于回来了");
+			ds_grid_add(list,0,6,"怎么样？在精神世界里找到什么有用的线索了吗？");
+			ds_grid_add(list,0,5,"暂时没有，精神世界毕竟是分散而不规则的，有点麻烦。。之后我还得再去找找");
+			ds_grid_add(list,0,4,"之前局长让调查的那三位嫌疑人资料搜集到了吗");
+			ds_grid_add(list,0,3,"你说的嫌疑人是指馆长的三个拍卖客户吗？");
+			ds_grid_add(list,0,2,"的确，可能正是某一位为了避开拍卖直接抢到资料才趁着大停电下手了");
+			ds_grid_add(list,0,1,"不然我实在是不能理解为什么会有人在这种时候偷了一个马桶走");
+			ds_grid_add(list,0,0,"来吧，你要查看谁的资料？");
+			
+			ds_grid_add(list,2,7,spr_npc_1);
+			ds_grid_add(list,2,6,spr_npc_1);
+			ds_grid_add(list,2,5,spr_avatar_blank);
+			ds_grid_add(list,2,4,spr_avatar_blank);
+			ds_grid_add(list,2,3,spr_npc_1);
+			ds_grid_add(list,2,2,spr_npc_1);
+			ds_grid_add(list,2,1,spr_npc_1);
+			ds_grid_add(list,2,0,spr_npc_1);
+
+			ds_grid_add(list,1,7,spr_avatar_blank);
+			ds_grid_add(list,1,6,spr_avatar_blank);
+			ds_grid_add(list,1,5,spr_player_real);
+			ds_grid_add(list,1,4,spr_player_real);
+			ds_grid_add(list,1,3,spr_avatar_blank);
+			ds_grid_add(list,1,2,spr_avatar_blank);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;	
+		
+		case 051:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"要讨论关于谁的事呢");
+
+		
+			ds_grid_add(list,2,0,spr_npc_1);
+
+			
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;
+		
+		case 052:
+			ds_grid_resize(list,4,10)
+			ds_grid_add(list,0,9,"老总，男，39岁");
+			ds_grid_add(list,0,8,"作为复古区里罕见的普通人，却控制着整个西城的经济命脉");
+			ds_grid_add(list,0,7,"等等，罕见的普通人是什么意思，其他人都不普通吗");
+			ds_grid_add(list,0,6,"我不是说过了吗，你们复古区的主体人口都是你这样的21世纪的超能力者");
+			ds_grid_add(list,0,5,"当然，你的能力是特别的");
+			ds_grid_add(list,0,4,"回归正题，老总暗地里控制着西城三分之二以上的公司，可谓是一个金融天王");
+			ds_grid_add(list,0,3,"意外的是，除了商业合作以外，他和他人的接触非常之少。");
+			ds_grid_add(list,0,2,"我们对他的了解也仅限于他强烈的扩张欲望");
+			ds_grid_add(list,0,1,"重要的是，对于警察的询问，他拿不出不在场证明且避而不答");
+			ds_grid_add(list,0,0,"当然我们也没有任何他参与了这场盗窃的直接证据，所以得靠你的能力了");
+		
+			ds_grid_add(list,2,9,spr_npc_1);
+			ds_grid_add(list,2,8,spr_npc_1);
+			ds_grid_add(list,2,7,spr_avatar_blank);
+			ds_grid_add(list,2,6,spr_npc_1);
+			ds_grid_add(list,2,5,spr_npc_1);
+			ds_grid_add(list,2,4,spr_npc_1);
+			ds_grid_add(list,2,3,spr_npc_1);
+			ds_grid_add(list,2,2,spr_npc_1);
+			ds_grid_add(list,2,1,spr_npc_1);
+			ds_grid_add(list,2,0,spr_npc_1);
+
+			ds_grid_add(list,1,9,spr_avatar_blank);
+			ds_grid_add(list,1,8,spr_avatar_blank);
+			ds_grid_add(list,1,7,spr_player_real);
+			ds_grid_add(list,1,6,spr_avatar_blank);
+			ds_grid_add(list,1,5,spr_avatar_blank);
+			ds_grid_add(list,1,4,spr_avatar_blank);
+			ds_grid_add(list,1,3,spr_avatar_blank);
+			ds_grid_add(list,1,2,spr_avatar_blank);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;
+		
+		case 053:
+			ds_grid_resize(list,4,8)
+			ds_grid_add(list,0,7,"老板娘，女，29岁，三大天王之一，超能力是少见的精神系，你的同伴哦");
+			ds_grid_add(list,0,6,"等等，她也能进入精神世界吗？");
+			ds_grid_add(list,0,5,"放轻松，我说过你是独一无二的，她能做到的只是一定程度上操控好感度");
+			ds_grid_add(list,0,4,"老板娘作为南城最大酒吧“Time”的老板，因为颜值高和超能力的原因，她舔狗众多");
+			ds_grid_add(list,0,3,"她有着非常广阔的人脉，也因此把握着众多情报");
+			ds_grid_add(list,0,2,"凭借着情报的力量，她也把自己的人设与酒吧的生意都做的红红火火");
+			ds_grid_add(list,0,1,"根据警局的报告，酒吧里有很多人可以为她提供不在场证明");
+			ds_grid_add(list,0,0,"可惜的是这些人证都是舔狗，不能取信，你还是去不能撒谎的精神世界调查一下把");
+		
+			ds_grid_add(list,2,7,spr_npc_1);
+			ds_grid_add(list,2,6,spr_avatar_blank);
+			ds_grid_add(list,2,5,spr_npc_1);
+			ds_grid_add(list,2,4,spr_npc_1);
+			ds_grid_add(list,2,3,spr_npc_1);
+			ds_grid_add(list,2,2,spr_npc_1);
+			ds_grid_add(list,2,1,spr_npc_1);
+			ds_grid_add(list,2,0,spr_npc_1);
+
+			ds_grid_add(list,1,7,spr_avatar_blank);
+			ds_grid_add(list,1,6,spr_player_real);
+			ds_grid_add(list,1,5,spr_avatar_blank);
+			ds_grid_add(list,1,4,spr_avatar_blank);
+			ds_grid_add(list,1,3,spr_avatar_blank);
+			ds_grid_add(list,1,2,spr_avatar_blank);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;
+		
+		case 054:
+			ds_grid_resize(list,4,8)
+			ds_grid_add(list,0,7,"算命先生，男，年龄不详，东街混混中的杠把子，超能力是...");
+			ds_grid_add(list,0,6,"是啥？");
+			ds_grid_add(list,0,5,"专业术语有点复杂，我觉得你也听不懂，总之就是能做到一定程度的预测把");
+			ds_grid_add(list,0,4,"算命先生常年徘徊在东城街头靠摆摊算命为生，爱好是人前显圣");
+			ds_grid_add(list,0,3,"明明都是超能力者，还是想显得高人一等吗？");
+			ds_grid_add(list,0,2,"只是喷个火或者飞行一下的话纳米战服也能做到，这年头这种功能性更强的能力的确更吃香");
+			ds_grid_add(list,0,1,"他并没有不在场证明，不如说他人在哪里我们都还没找到");
+			ds_grid_add(list,0,0,"就拜托你去调查了");
+
+
+			ds_grid_add(list,2,7,spr_npc_1);
+			ds_grid_add(list,2,6,spr_avatar_blank);
+			ds_grid_add(list,2,5,spr_npc_1);
+			ds_grid_add(list,2,4,spr_npc_1);
+			ds_grid_add(list,2,3,spr_avatar_blank);
+			ds_grid_add(list,2,2,spr_npc_1);
+			ds_grid_add(list,2,1,spr_npc_1);
+			ds_grid_add(list,2,0,spr_npc_1);
+
+			ds_grid_add(list,1,7,spr_avatar_blank);
+			ds_grid_add(list,1,6,spr_player_real);
+			ds_grid_add(list,1,5,spr_avatar_blank);
+			ds_grid_add(list,1,4,spr_avatar_blank);
+			ds_grid_add(list,1,3,spr_player_real);
+			ds_grid_add(list,1,2,spr_avatar_blank);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;	
+		
+		case 055:
+			ds_grid_resize(list,4,7)
+			ds_grid_add(list,0,6,"这三个人全都有不在场证明啊。。");
+			ds_grid_add(list,0,5,"那么究竟是谁偷走了马桶呢？");
+			ds_grid_add(list,0,4,"除了这三位之外，应该没有人能提前得知消息并进行偷窃了。。");
+			ds_grid_add(list,0,3,"等等！如果犯人压根就不知道马桶里面还有东西呢？");
+			ds_grid_add(list,0,2,"如果他的本来目的就是马桶本身而不是里面的超能力手册呢？");
+			ds_grid_add(list,0,1,"我好像漏掉了点什么。。再去博物馆一趟吧。");
+			ds_grid_add(list,0,0,"本次的Demo到这里就结束了，感谢大家的支持！");
+
+			ds_grid_add(list,2,6,spr_avatar_blank);		    
+		    ds_grid_add(list,2,5,spr_avatar_blank);
+			ds_grid_add(list,2,4,spr_avatar_blank);
+			ds_grid_add(list,2,3,spr_avatar_blank);
+			ds_grid_add(list,2,2,spr_avatar_blank);
+			ds_grid_add(list,2,1,spr_avatar_blank);
+			ds_grid_add(list,2,0,spr_npc_1);
+
+			ds_grid_add(list,1,6,spr_player_real);
+			ds_grid_add(list,1,5,spr_player_real);
+			ds_grid_add(list,1,4,spr_player_real);
+			ds_grid_add(list,1,3,spr_player_real);
+			ds_grid_add(list,1,2,spr_player_real);
+			ds_grid_add(list,1,1,spr_player_real);
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;	
+		
+		case 056:
+			ds_grid_resize(list,4,4)
+			ds_grid_add(list,0,3,"那你先继续在精神界调查把");
+			ds_grid_add(list,0,2,"现在还有"+string(3-load("clue_collected"))+"个人没调查呢");
+			ds_grid_add(list,0,1,"如果忘记了发生过什么，请按Enter进入线索菜单查看哦");
+			ds_grid_add(list,0,0,"要回到精神世界的话，请使用床旁边的传送门");
+
+		
+			ds_grid_add(list,2,3,spr_npc_1);
+			ds_grid_add(list,2,2,spr_npc_1);
+			ds_grid_add(list,2,1,spr_npc_1);
+			ds_grid_add(list,2,0,spr_npc_1);
+
+			ds_grid_add(list,1,3,spr_avatar_blank);
+			ds_grid_add(list,1,2,spr_avatar_blank);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;	
+		
+		case 057:
+			ds_grid_resize(list,4,3)
+			ds_grid_add(list,0,2,"老总那30分钟在厕所里");
+			ds_grid_add(list,0,1,"。。。那还真是可怜啊");
+			ds_grid_add(list,0,0,"看来嫌疑犯应该不是他");
+		
+
+			ds_grid_add(list,2,2,spr_avatar_blank);
+			ds_grid_add(list,2,1,spr_npc_1);
+			ds_grid_add(list,2,0,spr_avatar_blank);
+
+
+			ds_grid_add(list,1,2,spr_player_real);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_player_real);
+
+			return(list);
+		break;
+		
+		case 058:
+			ds_grid_resize(list,4,2)
+			ds_grid_add(list,0,1,"老板娘哪里都没去");
+			ds_grid_add(list,0,0,"以意外的只是个老实人啊");
+		
+			ds_grid_add(list,2,1,spr_avatar_blank);
+			ds_grid_add(list,2,0,spr_npc_1);
+
+			ds_grid_add(list,1,1,spr_player_real);
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;
+		
+		case 059:
+			ds_grid_resize(list,4,3)
+			ds_grid_add(list,0,2,"算命先生停电时跑去收保护费了呢");
+			ds_grid_add(list,0,1,"我会汇报给你的上级的，其他人会收拾他的");
+			ds_grid_add(list,0,0,"不过他不是我们的目标呢");
+		
+
+			ds_grid_add(list,2,2,spr_avatar_blank);
+			ds_grid_add(list,2,1,spr_npc_1);
+			ds_grid_add(list,2,0,spr_avatar_blank);
+
+
+			ds_grid_add(list,1,2,spr_player_real);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_player_real);
+
+			return(list);
+		break;	
 	}
 	
 		

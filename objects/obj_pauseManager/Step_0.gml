@@ -15,6 +15,7 @@ if(layer_get_visible("Pause1")){
 		global.Pselected=uiSelect(buttons,global.Pselected);
 	}
 	if(global.input_ok){
+		audio_play_sound(select,5,false);
 		switch (global.Pselected)
 		{
 						
@@ -54,6 +55,7 @@ else if(layer_get_visible("Pause3")){
 	rY=lerp(rY,Mselected.oY,.5);
 	//show_debug_message("mapping");
 	if(global.input_no){
+		audio_play_sound(cancel,5,false);
 		unpause();
 	}
 	//select loop
@@ -62,15 +64,17 @@ else if(layer_get_visible("Pause3")){
 	}
 	
 	//back to main room
-	if(global.input_X_p){
+	if(global.input_X_p&&room!=room_player_test){
+		audio_play_sound(select,5,false);
 		unpause();
 		room_goto(room_player_test);
 		write("spawn",2);
 		obj_player.dX=0;
 		obj_player.dY=0;
 	}
-	//go to selected room
-	if(global.input_ok){
+	//go to selected room	
+	if(global.input_ok&&Mselected.pRoom!=room){
+		audio_play_sound(select,5,false);
 		unpause();
 		room_goto(Mselected.pRoom);
 		write("spawn",0);
@@ -81,17 +85,7 @@ else if(layer_get_visible("Pause3")){
 
 //if detail page
 if(layer_get_visible("Pause5")){
-	if(global.input_no){
-		if(!detail){
-		global.Pselected=button2;
-		changePause2(false);
-		changePause1(true);
-		}
-		else{
-			detail=false;
-		}
 
-	}
 	
 	if(global.input_dir&&!detail){//if any direction is triggered
 
@@ -116,5 +110,18 @@ if(layer_get_visible("Pause5")){
 	if(global.Pselected==tags[# 0,2]){global.Pselected=tags[# 1,2];list_right(line3);}
 	if(global.Pselected==tags[# 5,2]){global.Pselected=tags[# 4,2];list_left(line3);}
 	
-	if(global.input_ok&&sline[|sX]!=999){detail=true;}
+	if(global.input_ok&&sline[|sX]!=999){detail=true;audio_play_sound(select,5,false);}
+	
+		if(global.input_no){
+		audio_play_sound(cancel,5,false);
+		if(!detail){
+		global.Pselected=button2;
+		changePause2(false);
+		changePause1(true);
+		}
+		else{
+			detail=false;
+		}
+
+	}
 }

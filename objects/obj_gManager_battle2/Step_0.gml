@@ -49,8 +49,8 @@ if(load("npc_oldy_fic_dia1_read")){
 		}
 		else{powerUp1=undefined;}
 		
-		if(load("npc_oldy_fic_dia2_read")&&!load("clue8_get")){
-			write("clue8_get",true);
+		if(load("npc_oldy_fic_dia2_read")&&!load("clue9_get")){
+			write("clue9_get",true);
 			write("clue_collected",load("clue_collected")+1);
 			messaging=true;
 			dia=023;

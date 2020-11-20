@@ -10,7 +10,7 @@ if(abs(obj_player.x-x)<100){facing=sign(obj_player.x-x);}
 //if player triggered the switch
 if(interactable&&(global.input_up_p||global.input_interact)){
 	status=true;
-	
+	audio_play_sound(interact,5,false);
 	manager.talking=true;
 	manager.dia=dia;
 }

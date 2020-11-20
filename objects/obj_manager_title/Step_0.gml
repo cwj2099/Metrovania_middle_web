@@ -21,8 +21,10 @@ else{
 }
 
 if(global.input_ok||global.input_start){
+	audio_play_sound(select,5,false);
 	switch (global.selected)
 	{
+		
 		case button1:
 			//instance_create_layer(0,0,"Instances",obj_player_real);
 			if(file_exists(global.file_name))
@@ -59,15 +61,21 @@ if(global.input_ok||global.input_start){
 		case button4:
 			game_end();
 		break;
+		
+		case button7:
+			layer_set_visible("Instances",false);
+			layer_set_visible("Instances_2",true);
+		break;
 	}
 }
 }
-else{
+else if(layer_get_visible("Instances_1")){
 	if(global.input_dir){//if any direction is triggered
 		global.selected=uiSelect(buttons2,global.selected);
 	}
 
 	if(global.input_ok||global.input_start){
+		audio_play_sound(select,5,false);
 		switch (global.selected)
 		{
 			case button5:
@@ -84,4 +92,13 @@ else{
 		global.selected=button3;
 		ds_map_secure_save(global.save_data,global.file_name);
 	}
+}
+else if(layer_get_visible("Instances_2")){
+	if(global.input_no){
+		layer_set_visible("Instances",true);
+		layer_set_visible("Instances_2",false);
+		global.selected=button7;
+	}
+
+
 }

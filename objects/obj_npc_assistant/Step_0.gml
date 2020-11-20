@@ -11,6 +11,9 @@ if(status){
 }
 
 if(load("npc_assistant_dia1_read")){
-	dia=037;
+	dia=051;
 }
 
+if(load("clue_collected")>=3){
+	dia=055;
+}

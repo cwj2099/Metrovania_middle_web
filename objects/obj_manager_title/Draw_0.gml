@@ -15,6 +15,7 @@ if(layer_get_visible("Instances")){
 		if(load("started")){
 		draw_text(button2.x,button2.y,"Countinue");}
 		draw_text(button3.x,button3.y,"Setting");
+		draw_text(button7.x,button7.y,"Credit");
 		draw_text(button4.x,button4.y,"Exit");
 	}
 	else{
@@ -22,11 +23,15 @@ if(layer_get_visible("Instances")){
 		if(load("started")){
 		draw_text(button2.x,button2.y,"继续游戏");}
 		draw_text(button3.x,button3.y,"设置");
+		draw_text(button7.x,button7.y,"制作人员");
 		draw_text(button4.x,button4.y,"退出");
 	}
 }
-else{
+else if(layer_get_visible("Instances_1")){
 	draw_text(320,128,"Language Setting 语言设置")
 	draw_text(button5.x,button5.y,"English");
 	draw_text(button6.x,button6.y,"中文");
+}
+else if(layer_get_visible("Instances_2")){
+
 }

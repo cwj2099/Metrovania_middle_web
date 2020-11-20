@@ -16,6 +16,13 @@ function optionList_cn(argument0) {
 			list[# 2,0]="没什么";
 			list[# 3,0]=-1;
 		break;
+		
+		case 004:
+			list[# 0,0]="老总";
+			list[# 1,0]="老板娘";
+			list[# 2,0]="算命先生";
+			list[# 3,0]="先就这样吧";
+		break;
 	}
 
 	return(list);

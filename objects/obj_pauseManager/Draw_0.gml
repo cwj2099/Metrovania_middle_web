@@ -32,9 +32,24 @@ if(layer_get_visible("Pause1")){
 	if(world==0){draw_sprite(spr_noMap,0,x,y);}
 }
 else if(layer_get_visible("Pause3")){
+	oX=camera_get_view_x(view_camera[0]);
+	oY=camera_get_view_y(view_camera[0]);
 	//show_debug_message(Mselected.x);
-	draw_sprite(spr_selectRoom,0,Mselected.x,Mselected.y);
+	draw_set_font(Font_button);
+	draw_set_halign(fa_middle);
+	draw_set_valign(fa_center);
+	draw_set_color(c_black);
+	if(load("language")==1){
+		draw_txt_warp(oX+320,oY+100,"Press J to portal to selected room",20,250);
+		draw_txt_warp(oX+320,oY+80,"Press U to return to reality",20,250);
+	}
+	else{
+		
+		draw_txt_warp(oX+320,oY+100,"按J传送到选择的房间",20,250);
+		draw_txt_warp(oX+320,oY+80,"按U返回现实",20,250);
+	}
 	//draw_circle(Mselected.x,Mselected.y,10,false);
+	draw_sprite(spr_selectRoom,0,Mselected.x,Mselected.y);
 }
 if(layer_get_visible("Pause5")){
 	

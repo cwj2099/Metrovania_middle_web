@@ -19,7 +19,7 @@ if(!load("player_room_event1_triggered")){
 
 if(load("player_room_event1_end")&&!load("player_awake_dia1_read")){
 	write("player_awake_dia1_read",true);
-	dia=032;
+	dia=049;
 	talking=true;
 }
 
@@ -30,32 +30,36 @@ if(!talking&&load("player_awake_dia1_read")&&!load("player_room_event2_triggered
 
 if(!talking&&load("player_room_event2_end")&&!load("npc_assistant_dia1_read")){
 	write("npc_assistant_dia1_read",true);
-	dia=011;
+	dia=050;
 	talking=true;
 }
 
-if(!talking&&load("npc_assistant_dia1_read")&&!load("player_room_sys_read")){
-	messaging=true;
-	dia=21;
-	write("player_room_sys_read",true);
-}
 
-if((dia==011||dia==037||dia==035||dia==036)&&dia_counter==1){
+
+if((dia==50||dia==051||dia==052||dia==053||dia==054)&&dia_counter==1){
 	selecting=true;
-	op=003;
+	op=004;
 	
 
 	switch(selection){
 	case 1:
-		dia=035;
+		dia=052;
+		if(load("clue7_get")){dia=057;}
 	break;
 	
 	case 2:
-		dia=036;
+		dia=053;
+		if(load("clue8_get")){dia=058;}
 	break;
 	
 	case 3:
-		dia=012;
+		dia=054;
+		if(load("clue9_get")){dia=059;}
+	break;
+	
+	case 4:
+		write("npc_assistant_dia2_read",true);
+		dia=056;
 	break;
 	}
 
@@ -67,13 +71,21 @@ if((dia==011||dia==037||dia==035||dia==036)&&dia_counter==1){
 	}
 }
 
+if(!talking&&load("npc_assistant_dia2_read")&&!load("player_room_sys_read")){
+	messaging=true;
+	dia=021;
+	write("player_room_sys_read",true);
+}
+
 if(switch1.status){
 	switch1.status=false;
-	dX=0;
+	/*dX=0;
 	dY=0;
 	var fade=instance_create_layer(x,y,"Boxes",event_fade_out);
 	fade.groom=room_sectionA;
-	write("spawn",1);
+	write("spawn",1);*/
+	messaging=true;
+	dia=024;
 }
 
 if(switch2.status){

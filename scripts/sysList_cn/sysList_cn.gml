@@ -240,6 +240,14 @@ function sysList_cn(argument0) {
 			return(list);
 		break;
 		
+		case 024:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"这只是个Demo，外面的 世界还在搭建哦");	
+
+
+			return(list);
+		break;
+		
 	}
 
 

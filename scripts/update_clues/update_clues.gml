@@ -11,7 +11,7 @@ function update_clues() {
 
 	//for(var i=ds_list_size(line1)-1;i<4;i++){ds_list_add(line1,999);}
 
-	ds_list_add(line2,4);ds_list_add(line2,5);ds_list_add(line2,6);ds_list_add(line2,999);
+	ds_list_add(line2,4);ds_list_add(line2,5);ds_list_add(line2,6);ds_list_add(line2,10);
 
 	//for(var i=ds_list_size(line2)-1;i<4;i++){ds_list_add(line2,"locked");}
 

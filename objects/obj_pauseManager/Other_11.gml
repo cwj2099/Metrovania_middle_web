@@ -1,6 +1,8 @@
 /// @description select the map
 // You can write your code in this editor
+
 if(global.input_up_p){
+	audio_play_sound(move,5,false);
 	var mac=-999999;
 	var j=ds_list_find_index(pRooms,Mselected);
 	for(var i=0;i<ds_list_size(pRooms);i++){
@@ -12,6 +14,7 @@ if(global.input_up_p){
 	Mselected=pRooms[|j];
 }
 else if(global.input_down_p){
+	audio_play_sound(move,5,false);
 	var mac=999999;
 	var j=ds_list_find_index(pRooms,Mselected);
 	for(var i=0;i<ds_list_size(pRooms);i++){
@@ -23,6 +26,7 @@ else if(global.input_down_p){
 	Mselected=pRooms[|j];	
 }
 else if(global.input_left_p){
+	audio_play_sound(move,5,false);
 	var mac=-999999;
 	var j=ds_list_find_index(pRooms,Mselected);
 	for(var i=0;i<ds_list_size(pRooms);i++){
@@ -34,6 +38,7 @@ else if(global.input_left_p){
 	Mselected=pRooms[|j];
 }
 else if(global.input_right_p){
+	audio_play_sound(move,5,false);
 	var mac=999999;
 	var j=ds_list_find_index(pRooms,Mselected);
 	for(var i=0;i<ds_list_size(pRooms);i++){
