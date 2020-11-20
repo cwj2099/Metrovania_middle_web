@@ -94,6 +94,7 @@
     {"id":{"name":"spr_knight_strik","path":"sprites/spr_knight_strik/spr_knight_strik.yy",},"order":2,},
     {"id":{"name":"spr_fireDemon","path":"sprites/spr_fireDemon/spr_fireDemon.yy",},"order":0,},
     {"id":{"name":"obj_gManager_battle3","path":"objects/obj_gManager_battle3/obj_gManager_battle3.yy",},"order":19,},
+    {"id":{"name":"clueList_en","path":"scripts/clueList_en/clueList_en.yy",},"order":6,},
     {"id":{"name":"spr_flame_sword","path":"sprites/spr_flame_sword/spr_flame_sword.yy",},"order":1,},
     {"id":{"name":"spr_deathorb","path":"sprites/spr_deathorb/spr_deathorb.yy",},"order":2,},
     {"id":{"name":"spr_deathorb_birth","path":"sprites/spr_deathorb_birth/spr_deathorb_birth.yy",},"order":3,},
