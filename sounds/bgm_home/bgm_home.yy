@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "bgm_home.mp3",
-  "duration": 392.494781,
+  "soundFile": "bgm_home.wav",
+  "duration": 392.4637,
   "parent": {
     "name": "Bgm",
     "path": "folders/Sounds/Bgm.yy",

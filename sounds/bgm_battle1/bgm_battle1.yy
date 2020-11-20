@@ -1,6 +1,6 @@
 {
   "compression": 1,
-  "volume": 0.55,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "bgm_battle1.mp3",
-  "duration": 178.551941,
+  "soundFile": "bgm_battle1.wav",
+  "duration": 178.917068,
   "parent": {
     "name": "Bgm",
     "path": "folders/Sounds/Bgm.yy",
