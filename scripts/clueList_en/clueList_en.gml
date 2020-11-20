@@ -1,4 +1,4 @@
-function clueList_cn(argument0) {
+function clueList_en(argument0) {
 	var ID=argument0;
 	var list=ds_grid_create(4,1);//0 is title 1 is image 1, 2 is content, 3 is image 2 
 
