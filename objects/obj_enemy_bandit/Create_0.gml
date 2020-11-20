@@ -11,7 +11,7 @@ spd_run=10;
 
 mHp=1400;
 Hp=mHp;
-mSp=300;
+mSp=200;
 Sp=mSp;
 mSsp=mSp/4;
 ssp=mSsp;
