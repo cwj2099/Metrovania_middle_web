@@ -23,6 +23,9 @@ if(layer_get_visible("Pause1")){
 			break;
 			
 			case button2:
+				update_clues();
+				global.Pselected=tags[# 1,0];
+
 				alarm_set(0,1);
 			break;
 			
@@ -54,7 +57,7 @@ else if(layer_get_visible("Pause3")){
 		unpause();
 	}
 	//select loop
-	if(global.input_dir){//if any direction is triggered
+	if(global.input_dir&&ds_list_size(pRooms)>1){//if any direction is triggered
 		event_user(1);
 	}
 	
@@ -90,7 +93,8 @@ if(layer_get_visible("Pause5")){
 
 	}
 	
-	if(global.input_dir&&!detail&&ds_list_size(pRooms)>1){//if any direction is triggered
+	if(global.input_dir&&!detail){//if any direction is triggered
+
 		global.Pselected=uiSelect(tags,global.Pselected);
 	}
 	

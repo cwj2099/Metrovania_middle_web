@@ -331,6 +331,7 @@
     {"id":{"name":"zombie_action","path":"scripts/zombie_action/zombie_action.yy",},"order":2,},
     {"id":{"name":"zombie_attack","path":"scripts/zombie_attack/zombie_attack.yy",},"order":0,},
     {"id":{"name":"template_ai","path":"scripts/template_ai/template_ai.yy",},"order":0,},
+    {"id":{"name":"event_portal1","path":"objects/event_portal1/event_portal1.yy",},"order":6,},
     {"id":{"name":"template_move","path":"scripts/template_move/template_move.yy",},"order":1,},
     {"id":{"name":"template_action","path":"scripts/template_action/template_action.yy",},"order":2,},
     {"id":{"name":"template_attack","path":"scripts/template_attack/template_attack.yy",},"order":3,},

@@ -42,7 +42,7 @@ function knight_ai() {
 			//if I'm very close to the player
 			if(abs(player.x-x)<=75){	
 				clear_hitbox();
-				if(chain==0||chain==1){
+				if(chain<chainMax){
 					status=states.attack1;
 					chain++;
 				}

@@ -7,3 +7,9 @@ if(respawn!=noone&&respawn.status){
 	messaging=true;
 	dia=000;
 }
+if(!talking&&!messaging&&load("clue_collected")>=3&&!load("dia_finished_read")){
+	talking=true;
+	write("dia_finished_read",true);
+	dia=048;
+}
+

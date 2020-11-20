@@ -25,6 +25,7 @@ if(load("npc_oldy_fic_dia1_read")){
 			wall1=instance_create_layer(1260,400,"Instances",obj_lockDoor);
 		}
 		if(boss1==undefined){
+			audio_stop_sound(bgm_battle2);
 			audio_play_sound(bgm_battle2,10,true);
 			audio_sound_gain(bgm_battle2,1,1000);
 			boss1=instance_create_layer(460,400,"Instances",obj_enemy_bandit);
@@ -47,8 +48,16 @@ if(load("npc_oldy_fic_dia1_read")){
 			powerUp1=instance_create_layer(obj_player.x,obj_player.y,"Instances",obj_upgrade_doubleKick);
 		}
 		else{powerUp1=undefined;}
+		
+		if(load("npc_oldy_fic_dia2_read")&&!load("clue8_get")){
+			write("clue8_get",true);
+			write("clue_collected",load("clue_collected")+1);
+			messaging=true;
+			dia=023;
+		}
 	}
 }
+
 }
 
 

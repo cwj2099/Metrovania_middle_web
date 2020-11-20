@@ -5,6 +5,10 @@
 event_inherited();
 if(load("boss_battle2_defeated")){
 	dia=044;
+	if(status){
+		status=false;
+		write("npc_oldy_fic_dia2_read",true);
+	}
 }
 else{
 	if(status){

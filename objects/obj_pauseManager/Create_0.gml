@@ -25,7 +25,7 @@ ds_grid_set(buttons,0,2,button3);
 
 global.Pselected=button1;
 Mselected=piece001;
-update_clues();
+
 detail=false;
 
 //some location varaibales
@@ -39,3 +39,12 @@ rY=0;
 world=0;
 
 
+	tags=ds_grid_create(6,3);
+
+
+	for(var i=0;i<ds_grid_width(tags);i++){
+		for(var j=0;j<ds_grid_height(tags);j++){
+			tags[# i,j]=instance_create_layer(-80+160*i,64+120*j,"Pause5",obj_tag_1);
+			tags[# i,j].image_xscale=2;tags[# i,j].image_yscale=1.5;
+		}
+	}

@@ -213,7 +213,33 @@ function sysList_cn(argument0) {
 
 			return(list);
 		break;
+		
+		case 021:
+			ds_grid_resize(list,4,3)
+			ds_grid_add(list,0,2,"传送门能让你在现实与精神之间切换");	
+			ds_grid_add(list,0,1,"你也可以利用传送门在不同的传送点间移动");	
+			ds_grid_add(list,0,0,"但你需要先探索到复数传送点");	
 
+
+			return(list);
+		break;
+		
+		case 022:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"按Enter可以查看地图，判断自己的方位和可能能去的地方");	
+
+
+			return(list);
+		break;
+		
+		case 023:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"收纳了一条新的线索，请在暂停菜单中查看");	
+
+
+			return(list);
+		break;
+		
 	}
 
 

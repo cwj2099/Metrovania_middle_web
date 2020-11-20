@@ -34,6 +34,12 @@ if(!talking&&load("player_room_event2_end")&&!load("npc_assistant_dia1_read")){
 	talking=true;
 }
 
+if(!talking&&load("npc_assistant_dia1_read")&&!load("player_room_sys_read")){
+	messaging=true;
+	dia=21;
+	write("player_room_sys_read",true);
+}
+
 if((dia==011||dia==037||dia==035||dia==036)&&dia_counter==1){
 	selecting=true;
 	op=003;

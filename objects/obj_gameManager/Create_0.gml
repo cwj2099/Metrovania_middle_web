@@ -22,6 +22,7 @@ global.hitpause4=false;
 global.hitpause5=false;
 global.super=true;
 global.noInput=false;
+global.machineInput=false;
 global.slow=false;
 //create the pause object, and deactivate at the beginning
 manager=undefined; //storing the current room manager

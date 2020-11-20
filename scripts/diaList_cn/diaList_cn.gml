@@ -767,7 +767,7 @@ function diaList_cn(argument0) {
 		
 		case 047:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"回一趟现实报告一下吧");
+			ds_grid_add(list,0,0,"有些累了，回一趟现实报告一下吧");
 
 		
 			ds_grid_add(list,2,0,spr_avatar_blank);
@@ -777,6 +777,20 @@ function diaList_cn(argument0) {
 
 			return(list);
 		break;
+		
+		case 048:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"三个家伙的信息都收集完了，该回去报告了");
+
+		
+			ds_grid_add(list,2,0,spr_avatar_blank);
+
+			
+			ds_grid_add(list,1,0,spr_player);
+
+			return(list);
+		break;		
+		
 	}
 	
 		

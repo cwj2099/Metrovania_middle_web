@@ -14,7 +14,7 @@ if(global.ePause){
 if(Hp<=0){
 	instance_destroy();
 	instance_create_layer(x,y,"Boxes",obj_effect_boom);
-	global.hitpause1=true;
+	global.ko=true;
 	exit;
 }
 

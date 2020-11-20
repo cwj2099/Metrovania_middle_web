@@ -21,6 +21,8 @@ function record_default() {
 	write("world",0);//real world is 0, while fiction world is 1
 	write("spawn",1);//spawn point is respawn
 	write("respawn",room_tutorial1);
+	
+	write("clue_collected",0);
 
 	//////////////////////
 	//Map Changes

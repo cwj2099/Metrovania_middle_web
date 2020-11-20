@@ -18,6 +18,7 @@ facing=sign(image_xscale);
 player=undefined;
 search=100;
 chain=0;
+chainMax=3;
 
 steel=true;
 

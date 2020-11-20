@@ -1,7 +1,6 @@
 
 // Inherit the parent event
 event_inherited();
-
 //////////////////////
 //Spawn
 dX=0;

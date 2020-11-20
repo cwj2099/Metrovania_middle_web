@@ -4,7 +4,9 @@
 
 //update inputs
 if(!global.noInput){
+	if(!global.machineInput){
 	input_step();
+	}
 }
 else{
 	input_create();
@@ -112,7 +114,7 @@ if(global.ko){
 	global.ko=false;
 	room_speed=15;
 	alarm_set(0,15);
-	camera_set_view_size(view_camera[0],768,576);
+	camera_set_view_size(view_camera[0],576,324);
 }
 
 
