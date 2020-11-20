@@ -21,7 +21,7 @@ function swordsman_uppercut() {
 					
 					//inital the values of the hitbox
 					hitbox.owner=id;
-					hitbox.attack=2;
+					hitbox.attack=2.8;
 					hitbox.stun=20;
 					//hitbox's side is my side
 					hitbox.side=side;

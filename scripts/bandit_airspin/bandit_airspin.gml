@@ -18,7 +18,7 @@ function bandit_airspin() {
 					audio_play_sound(slash,5,false); 
 
 					var push_data=array(90-70*facing,35,10,-1);
-					hitbox= create_hitbox(id,1,20,-1,2,push_data,0,0,2,2);
+					hitbox= create_hitbox(id,2.5,20,-1,2,push_data,0,0,2,2);
 					if(true){
 						clear_force();
 						var force=instance_create_layer(x,y,"Boxes",force_directional);
@@ -37,7 +37,7 @@ function bandit_airspin() {
 		
 			case aStates.duration:
 				var push_data=array(90-70*facing,35,10,-1);
-				hitbox=create_hitbox(id,1,20,-1,2,push_data,0,0,2,2);
+				hitbox=create_hitbox(id,2.5,20,-1,2,push_data,0,0,2,2);
 				if(hitbox!=undefined&&hitbox.hitting){
 					audio_play_sound(hit1,1,false);
 				}

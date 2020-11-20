@@ -20,7 +20,7 @@ function swordsman_slash() {
 					hitbox=instance_create_layer(x+100*facing,y-10,"Boxes",obj_hitbox);
 
 					hitbox.owner=id;
-					hitbox.attack=1.5;
+					hitbox.attack=2.5;
 					hitbox.stun=20;
 					hitbox.side=side;
 					//angle,spd, life,inc

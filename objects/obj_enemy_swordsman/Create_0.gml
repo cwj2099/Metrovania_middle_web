@@ -9,9 +9,9 @@ side=0;//neutral side
 spd_walk=2;
 spd_run=10;
 
-mHp=800;
+mHp=1300;
 Hp=mHp;
-mSp=100;
+mSp=300;
 Sp=mSp;
 mSsp=mSp/4;
 ssp=mSsp;

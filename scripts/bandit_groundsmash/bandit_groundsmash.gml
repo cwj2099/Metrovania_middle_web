@@ -21,7 +21,7 @@ function bandit_groundsmash() {
 					
 					//inital the values of the hitbox
 					hitbox.owner=id;
-					hitbox.attack=2;
+					hitbox.attack=3;
 					hitbox.stun=20;
 					//hitbox's side is my side
 					hitbox.side=side;

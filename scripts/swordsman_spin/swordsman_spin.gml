@@ -18,7 +18,7 @@ function swordsman_spin() {
 					audio_play_sound(slash,5,false); 
 
 					var push_data=array(90-70*facing,15,10,-1);
-					hitbox= create_hitbox(id,1.5,20,-1,2,push_data,0,35,5.3,1);
+					hitbox= create_hitbox(id,2,20,-1,2,push_data,0,35,5.3,1);
 					if(true){
 						clear_force();
 						var force=instance_create_layer(x,y,"Boxes",force_directional);
