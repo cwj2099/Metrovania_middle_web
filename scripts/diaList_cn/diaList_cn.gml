@@ -118,7 +118,7 @@ function diaList_cn(argument0) {
 	
 		case 010:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"你：带到小猫咪了，还给那个女孩吧");	
+			ds_grid_add(list,0,0,"你：找到小猫咪了，还给那个女孩吧");	
 	
 
 			ds_grid_add(list,2,0,spr_avatar_blank);	
@@ -135,7 +135,7 @@ function diaList_cn(argument0) {
 			ds_grid_add(list,0,5,"机器人：虽然我知道失忆不是你能控制的，但你也要考虑一下你身边人的感受啊，老是说一样的话也是一种折磨啊。");
 			ds_grid_add(list,0,4,"机器人：我不是一个机器人，你现在看到的只是我的一个小发明。");
 			ds_grid_add(list,0,3,"机器人：我叫xx，是第三区警局的科研人员，主要负责科研、治疗和后勤。");
-			ds_grid_add(list,0,2,"机器人：总之，自从全城大停电之后，各区犯罪率飙升，警局人手一直紧缺，你还是快先回警局一趟吧。");
+			ds_grid_add(list,0,2,"机器人：总之，自从全城大停电之后，各区犯罪率飙升，警局人手一直紧缺，你还是先赶紧回警局一趟吧。");
 			ds_grid_add(list,0,1,"机器人：顺便把这次失忆的情况报告给局长，局长会告诉你接下来该怎么做的。");
 			ds_grid_add(list,0,0,"机器人：还有什么问题吗？");
 
@@ -510,12 +510,12 @@ function diaList_cn(argument0) {
 			ds_grid_add(list,0,10,"主角：局长，我醒来后就失忆了，现在什么都不记得了。");
 			ds_grid_add(list,0,9,"局长：你又失忆了？这次失忆的时间可有些不巧啊。");
 			ds_grid_add(list,0,8,"局长：刚刚警局接到了博物馆的报警电话，说是遗失了重要文物，情况有些棘手，可能还是需要你去调查一下。");
-			ds_grid_add(list,0,7,"局长：如果不是特殊时期，我也不会让你刚醒来失忆了还要去办案的，但现在警局人手紧缺，非常需要你。");
+			ds_grid_add(list,0,7,"局长：如果不是特殊时期，我也不会托你在失忆的情况下去办案的，但现在警局人手紧缺，非常需要你。");
 			ds_grid_add(list,0,6,"局长：如果抓到了犯罪嫌疑人，记得用你的超能力。");
 			ds_grid_add(list,0,5,"主角：超能力？读心吗？我好像记不得怎么用了…");
 			ds_grid_add(list,0,4,"主角（心声）：感觉读不了局长的心声啊。。。");
 			ds_grid_add(list,0,3,"局长：没事儿的，超能力就像本能一样，当你真正需要的时候一定会想起来的。");
-			ds_grid_add(list,0,2,"局长说着就随手吧手边的一支钢笔漂浮起来了，一阵变形后又变了回去。");
+			ds_grid_add(list,0,2,"局长说着就随手让手边的一支钢笔漂浮起来了，一阵变形后又变了回去。");
 			ds_grid_add(list,0,1,"局长：如你所见，我的能力就是控制金属。");
 			ds_grid_add(list,0,0,"局长：你先去了解一下情况吧，你是最擅长办案的，说不定办案的过程中你也会想起什么以前的事情。");
 
@@ -908,12 +908,12 @@ function diaList_cn(argument0) {
 			ds_grid_add(list,0,9,"老总，男，39岁");
 			ds_grid_add(list,0,8,"作为复古区里罕见的普通人，却控制着整个西城的经济命脉");
 			ds_grid_add(list,0,7,"等等，罕见的普通人是什么意思，其他人都不普通吗");
-			ds_grid_add(list,0,6,"我不是说过了吗，你们复古区的主体人口都是你这样的21世纪的超能力者");
+			ds_grid_add(list,0,6,"我不是说过了吗，你们复古区的主体人口都是你这样的21世纪超能力者");
 			ds_grid_add(list,0,5,"当然，你的能力是特别的");
 			ds_grid_add(list,0,4,"回归正题，老总暗地里控制着西城三分之二以上的公司，可谓是一个金融天王");
-			ds_grid_add(list,0,3,"意外的是，除了商业合作以外，他和他人的接触非常之少。");
-			ds_grid_add(list,0,2,"我们对他的了解也仅限于他强烈的扩张欲望");
-			ds_grid_add(list,0,1,"重要的是，对于警察的询问，他拿不出不在场证明且避而不答");
+			ds_grid_add(list,0,3,"意外的是，除了商业合作以外，他和别人的接触非常之少。");
+			ds_grid_add(list,0,2,"我们对他的了解也仅限于他有着异常强烈的扩张欲望");
+			ds_grid_add(list,0,1,"重要的是，对于警察的询问，他拿不出不在场证明而且还避而不答");
 			ds_grid_add(list,0,0,"当然我们也没有任何他参与了这场盗窃的直接证据，所以得靠你的能力了");
 		
 			ds_grid_add(list,2,9,spr_npc_1);
@@ -946,7 +946,7 @@ function diaList_cn(argument0) {
 			ds_grid_add(list,0,7,"老板娘，女，29岁，三大天王之一，超能力是少见的精神系，你的同伴哦");
 			ds_grid_add(list,0,6,"等等，她也能进入精神世界吗？");
 			ds_grid_add(list,0,5,"放轻松，我说过你是独一无二的，她能做到的只是一定程度上操控好感度");
-			ds_grid_add(list,0,4,"老板娘作为南城最大酒吧“Time”的老板，因为颜值高和超能力的原因，她舔狗众多");
+			ds_grid_add(list,0,4,"老板娘作为南城最大酒吧“Time”的老板，因为颜值高和超能力的原因，舔狗众多");
 			ds_grid_add(list,0,3,"她有着非常广阔的人脉，也因此把握着众多情报");
 			ds_grid_add(list,0,2,"凭借着情报的力量，她也把自己的人设与酒吧的生意都做的红红火火");
 			ds_grid_add(list,0,1,"根据警局的报告，酒吧里有很多人可以为她提供不在场证明");
@@ -977,8 +977,8 @@ function diaList_cn(argument0) {
 			ds_grid_resize(list,4,8)
 			ds_grid_add(list,0,7,"算命先生，男，年龄不详，东街混混中的杠把子，超能力是...");
 			ds_grid_add(list,0,6,"是啥？");
-			ds_grid_add(list,0,5,"专业术语有点复杂，我觉得你也听不懂，总之就是能做到一定程度的预测把");
-			ds_grid_add(list,0,4,"算命先生常年徘徊在东城街头靠摆摊算命为生，爱好是人前显圣");
+			ds_grid_add(list,0,5,"专业术语有点复杂，我觉得你也听不懂，总之就是能做到一定程度的预测吧");
+			ds_grid_add(list,0,4,"算命先生常年徘徊在东城街头靠摆摊算命为生，爱好是在人前显圣");
 			ds_grid_add(list,0,3,"明明都是超能力者，还是想显得高人一等吗？");
 			ds_grid_add(list,0,2,"只是喷个火或者飞行一下的话纳米战服也能做到，这年头这种功能性更强的能力的确更吃香");
 			ds_grid_add(list,0,1,"他并没有不在场证明，不如说他人在哪里我们都还没找到");
@@ -1037,7 +1037,7 @@ function diaList_cn(argument0) {
 		
 		case 056:
 			ds_grid_resize(list,4,4)
-			ds_grid_add(list,0,3,"那你先继续在精神界调查把");
+			ds_grid_add(list,0,3,"那你先继续在精神界调查吧");
 			ds_grid_add(list,0,2,"现在还有"+string(3-load("clue_collected"))+"个人没调查呢");
 			ds_grid_add(list,0,1,"如果忘记了发生过什么，请按Enter进入线索菜单查看哦");
 			ds_grid_add(list,0,0,"要回到精神世界的话，请使用床旁边的传送门");
@@ -1078,7 +1078,7 @@ function diaList_cn(argument0) {
 		case 058:
 			ds_grid_resize(list,4,2)
 			ds_grid_add(list,0,1,"老板娘哪里都没去");
-			ds_grid_add(list,0,0,"以意外的只是个老实人啊");
+			ds_grid_add(list,0,0,"意外的只是个老实人啊");
 		
 			ds_grid_add(list,2,1,spr_avatar_blank);
 			ds_grid_add(list,2,0,spr_npc_1);
@@ -1093,7 +1093,7 @@ function diaList_cn(argument0) {
 			ds_grid_resize(list,4,3)
 			ds_grid_add(list,0,2,"算命先生停电时跑去收保护费了呢");
 			ds_grid_add(list,0,1,"我会汇报给你的上级的，其他人会收拾他的");
-			ds_grid_add(list,0,0,"不过他不是我们的目标呢");
+			ds_grid_add(list,0,0,"但他并不是我们的目标");
 		
 
 			ds_grid_add(list,2,2,spr_avatar_blank);
