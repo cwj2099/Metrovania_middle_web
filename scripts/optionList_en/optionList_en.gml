@@ -1,4 +1,4 @@
-function optionList_cn(argument0) {
+function optionList_en(argument0) {
 	var ID=argument0;
 	var list=ds_grid_create(4,1);//0 is context, the rest are options
 
@@ -18,10 +18,10 @@ function optionList_cn(argument0) {
 		break;
 		
 		case 004:
-			list[# 0,0]="The Boss";
-			list[# 1,0]="The Lady";
-			list[# 2,0]="The Prophet";
-			list[# 3,0]="That's it for now";
+			list[# 0,0]="老总";
+			list[# 1,0]="老板娘";
+			list[# 2,0]="算命先生";
+			list[# 3,0]="先就这样吧";
 		break;
 	}
 

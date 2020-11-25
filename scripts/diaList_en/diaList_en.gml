@@ -496,6 +496,435 @@ function diaList_en(argument0) {
 		
 			return(list);
 		break;
+		
+		case 041:
+			ds_grid_resize(list,4,7)
+			ds_grid_add(list,0,6,"Ok, this seems to be the Boss");
+			ds_grid_add(list,0,5,"Hello Sir, what were you doing during the black out?");
+			ds_grid_add(list,0,4,"You know, there's always something you can't buy with money");
+			ds_grid_add(list,0,3,"Em, sir? I'm asking you a question...");
+			ds_grid_add(list,0,2,"with the empire I build wtih 15 years，with all wealth I gained through out my life, I still can not access that.");
+			ds_grid_add(list,0,1,"(It seems that there's something wrong with this guy)");
+			ds_grid_add(list,0,0,"I don't know what is the thing you can't buy with money, but I'm going to get what I want with my fist now");
+
+			ds_grid_add(list,2,6,spr_avatar_blank);
+			ds_grid_add(list,2,5,spr_avatar_blank);
+			ds_grid_add(list,2,4,spr_npc_5);
+			ds_grid_add(list,2,3,spr_avatar_blank);
+			ds_grid_add(list,2,2,spr_npc_5);
+			ds_grid_add(list,2,1,spr_avatar_blank);
+			ds_grid_add(list,2,0,spr_avatar_blank);
+
+			ds_grid_add(list,1,6,spr_player_real);
+			ds_grid_add(list,1,5,spr_player_real);
+			ds_grid_add(list,1,4,spr_avatar_blank);
+			ds_grid_add(list,1,3,spr_player_real);
+			ds_grid_add(list,1,2,spr_avatar_blank);
+			ds_grid_add(list,1,1,spr_player_real);
+			ds_grid_add(list,1,0,spr_player_real);
+			return(list);
+		break;
+		
+		case 042:
+			ds_grid_resize(list,4,7)
+			ds_grid_add(list,0,6,"I win, claim what have you done right now!");
+			ds_grid_add(list,0,5,"One can not buy friendship");
+			ds_grid_add(list,0,4,"Good words, but does this have anything to do with what you've done during the black out?");
+			ds_grid_add(list,0,3,"I was in the bath room alone, didn't expected the black out that made my toilet no longer work");
+			ds_grid_add(list,0,2,"...");
+			ds_grid_add(list,0,1,"If I had a friend, he may already brought me some tissue at that time");
+			ds_grid_add(list,0,0,"（There's no lie in spiritual world, so he was just stucked in the bath room for 30 min）");
+
+			ds_grid_add(list,2,6,spr_avatar_blank);
+			ds_grid_add(list,2,5,spr_npc_5);
+			ds_grid_add(list,2,4,spr_avatar_blank);
+			ds_grid_add(list,2,3,spr_npc_5);
+			ds_grid_add(list,2,2,spr_avatar_blank);
+			ds_grid_add(list,2,1,spr_npc_5);
+			ds_grid_add(list,2,0,spr_avatar_blank);
+
+			ds_grid_add(list,1,6,spr_player_real);
+			ds_grid_add(list,1,5,spr_avatar_blank);
+			ds_grid_add(list,1,4,spr_player_real);
+			ds_grid_add(list,1,3,spr_avatar_blank);
+			ds_grid_add(list,1,2,spr_player_real);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_player_real);
+			return(list);
+
+			return(list);
+		break;
+		
+		case 043:
+			ds_grid_resize(list,4,7)
+			ds_grid_add(list,0,6,"You're here?");
+			ds_grid_add(list,0,5,"I'm here");
+			ds_grid_add(list,0,4,"You shouldn't be here");
+			ds_grid_add(list,0,3,"Alright, I guess you are Mr Prophet. Can you tell me what were you doing during the black out?");
+			ds_grid_add(list,0,2,"We are helping the market conduct micro-capital control to maintain cash flow through compulsory measures, and I, as the chief officer, guard the control center to control the direction of cash flow");
+			ds_grid_add(list,0,1,"??? Now I got why assit do not want to explain your ability");
+			ds_grid_add(list,0,0,"I'll let you speak in a normal way with my fist");
+
+			ds_grid_add(list,2,6,spr_npc_4);
+			ds_grid_add(list,2,5,spr_avatar_blank);
+			ds_grid_add(list,2,4,spr_npc_4);
+			ds_grid_add(list,2,3,spr_avatar_blank);
+			ds_grid_add(list,2,2,spr_npc_4);
+			ds_grid_add(list,2,1,spr_avatar_blank);
+			ds_grid_add(list,2,0,spr_avatar_blank);
+
+			ds_grid_add(list,1,6,spr_avatar_blank);
+			ds_grid_add(list,1,5,spr_player_real);
+			ds_grid_add(list,1,4,spr_avatar_blank);
+			ds_grid_add(list,1,3,spr_player_real);
+			ds_grid_add(list,1,2,spr_avatar_blank);
+			ds_grid_add(list,1,1,spr_player_real);
+			ds_grid_add(list,1,0,spr_player_real);
+			return(list);
+		break;
+		
+		case 044:
+			ds_grid_resize(list,4,5)
+
+			ds_grid_add(list,0,4,"So, what were you doing?");
+			ds_grid_add(list,0,3,"Collecting protection fee and distribute them to my gang");
+			ds_grid_add(list,0,2,"...");
+			ds_grid_add(list,0,1,"Guess you not the one I'm looking for cause you can't lie here.");
+			ds_grid_add(list,0,0,"But for the collection fee, you will be processed by my mate.");
+
+
+			ds_grid_add(list,2,4,spr_avatar_blank);
+			ds_grid_add(list,2,3,spr_npc_4);
+			ds_grid_add(list,2,2,spr_avatar_blank);
+			ds_grid_add(list,2,1,spr_avatar_blank);
+			ds_grid_add(list,2,0,spr_avatar_blank);
+
+
+			ds_grid_add(list,1,4,spr_player_real);
+			ds_grid_add(list,1,3,spr_avatar_blank);
+			ds_grid_add(list,1,2,spr_player_real);
+			ds_grid_add(list,1,1,spr_player_real);
+			ds_grid_add(list,1,0,spr_player_real);
+			return(list);
+		break;
+		case 045:
+			ds_grid_resize(list,4,3)
+			ds_grid_add(list,0,2,"I guess you are the Lady. What were you doing during the black out?");
+			ds_grid_add(list,0,1,"I was working, what");
+			ds_grid_add(list,0,0,"(There's no lie in spiritual world, so she's not the one)");
+		
+			ds_grid_add(list,2,2,spr_avatar_blank);
+			ds_grid_add(list,2,1,spr_npc_3);
+			ds_grid_add(list,2,0,spr_avatar_blank);
+			
+			ds_grid_add(list,1,2,spr_player_real);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_player_real);
+			return(list);
+		break;
+		
+		case 046:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"There's no lie in spiritual world, no need to ask her again");
+
+		
+			ds_grid_add(list,2,0,spr_avatar_blank);
+
+			
+			ds_grid_add(list,1,0,spr_player_real);
+
+			return(list);
+		break;
+		
+		case 047:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"I'm tired, time to went back to reality");
+
+		
+			ds_grid_add(list,2,0,spr_avatar_blank);
+
+			
+			ds_grid_add(list,1,0,spr_player_real);
+
+			return(list);
+		break;
+		
+		case 048:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"All three collected, time to went back to reality and report");
+
+		
+			ds_grid_add(list,2,0,spr_avatar_blank);
+
+			
+			ds_grid_add(list,1,0,spr_player_real);
+
+			return(list);
+		break;	
+		
+		
+		case 049:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"Ah, so getting used to that");
+
+		
+			ds_grid_add(list,2,0,spr_avatar_blank);
+
+			
+			ds_grid_add(list,1,0,spr_player_real);
+
+			return(list);
+		break;		
+		
+		case 050:
+			ds_grid_resize(list,4,8)
+			ds_grid_add(list,0,7,"You, finally awake");
+			ds_grid_add(list,0,6,"Did you get anything useful in the spiritual world?");
+			ds_grid_add(list,0,5,"Nope. Spiritual world is a maze, need time to figure out what is what.");
+			ds_grid_add(list,0,4,"Have you collected all three suspects' information?");
+			ds_grid_add(list,0,3,"by suspects do you mean the musuem curator's customers?");
+			ds_grid_add(list,0,2,"Yeah, one of them may stole it to avoid the auction");
+			ds_grid_add(list,0,1,"Or it make no sense for a person to stole that toilet");
+			ds_grid_add(list,0,0,"Ok, which one do you want to check");
+			
+			ds_grid_add(list,2,7,spr_npc_1);
+			ds_grid_add(list,2,6,spr_npc_1);
+			ds_grid_add(list,2,5,spr_avatar_blank);
+			ds_grid_add(list,2,4,spr_avatar_blank);
+			ds_grid_add(list,2,3,spr_npc_1);
+			ds_grid_add(list,2,2,spr_npc_1);
+			ds_grid_add(list,2,1,spr_npc_1);
+			ds_grid_add(list,2,0,spr_npc_1);
+
+			ds_grid_add(list,1,7,spr_avatar_blank);
+			ds_grid_add(list,1,6,spr_avatar_blank);
+			ds_grid_add(list,1,5,spr_player_real);
+			ds_grid_add(list,1,4,spr_player_real);
+			ds_grid_add(list,1,3,spr_avatar_blank);
+			ds_grid_add(list,1,2,spr_avatar_blank);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;	
+		
+		case 051:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"so which to discuss?");
+
+		
+			ds_grid_add(list,2,0,spr_npc_1);
+
+			
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;
+		
+		case 052:
+			ds_grid_resize(list,4,10)
+			ds_grid_add(list,0,9,"The Boss, male 35");
+			ds_grid_add(list,0,8,"As a rare skilless person in this retro sector, ");
+			ds_grid_add(list,0,7,"What do you mean by skilless, everyone else has sort of skill?");
+			ds_grid_add(list,0,6,"I don't wnat to repeat this, you retro sector's residenet are mostly people with super power from 21 century");
+			ds_grid_add(list,0,5,"Of course, your ablitiy is the unique one");
+			ds_grid_add(list,0,4,"Back to the boss, he controlls 2 out of 3 of the companies in the whole sector");
+			ds_grid_add(list,0,3,"Surprisingly, apart from commericial corperation, he do not have any contact with other people at all");
+			ds_grid_add(list,0,2,"All we know is his eager to expand his estate.");
+			ds_grid_add(list,0,1,"Most importantly, when we were invesgeting him, he can not provide alibi at all");
+			ds_grid_add(list,0,0,"Of course we do not have any direct evidence that points that he is the criminal, so relying on your ability now!");
+		
+			ds_grid_add(list,2,9,spr_npc_1);
+			ds_grid_add(list,2,8,spr_npc_1);
+			ds_grid_add(list,2,7,spr_avatar_blank);
+			ds_grid_add(list,2,6,spr_npc_1);
+			ds_grid_add(list,2,5,spr_npc_1);
+			ds_grid_add(list,2,4,spr_npc_1);
+			ds_grid_add(list,2,3,spr_npc_1);
+			ds_grid_add(list,2,2,spr_npc_1);
+			ds_grid_add(list,2,1,spr_npc_1);
+			ds_grid_add(list,2,0,spr_npc_1);
+
+			ds_grid_add(list,1,9,spr_avatar_blank);
+			ds_grid_add(list,1,8,spr_avatar_blank);
+			ds_grid_add(list,1,7,spr_player_real);
+			ds_grid_add(list,1,6,spr_avatar_blank);
+			ds_grid_add(list,1,5,spr_avatar_blank);
+			ds_grid_add(list,1,4,spr_avatar_blank);
+			ds_grid_add(list,1,3,spr_avatar_blank);
+			ds_grid_add(list,1,2,spr_avatar_blank);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;
+		
+		case 053:
+			ds_grid_resize(list,4,8)
+			ds_grid_add(list,0,7,"The Lady, 29, female. A physco ability holder like you");
+			ds_grid_add(list,0,6,"Does this mean she could enter the spiritual world as well?");
+			ds_grid_add(list,0,5,"Relaxed, I've said that you are the unique one. Her ability could only control the 'distance' between each other");
+			ds_grid_add(list,0,4,"As the owner of the 'Times' Bar, she got many fans with the help of her look and ability");
+			ds_grid_add(list,0,3,"She has very complex information network in this case");
+			ds_grid_add(list,0,2,"With the power of firsthand information, she made her bar very successful.");
+			ds_grid_add(list,0,1,"According the report, many fans in the bar could provide alibi for her");
+			ds_grid_add(list,0,0,"Sadly due to her ability, those fans are not trust worthy. We still want you to investigate her in spiritual world");
+		
+			ds_grid_add(list,2,7,spr_npc_1);
+			ds_grid_add(list,2,6,spr_avatar_blank);
+			ds_grid_add(list,2,5,spr_npc_1);
+			ds_grid_add(list,2,4,spr_npc_1);
+			ds_grid_add(list,2,3,spr_npc_1);
+			ds_grid_add(list,2,2,spr_npc_1);
+			ds_grid_add(list,2,1,spr_npc_1);
+			ds_grid_add(list,2,0,spr_npc_1);
+
+			ds_grid_add(list,1,7,spr_avatar_blank);
+			ds_grid_add(list,1,6,spr_player_real);
+			ds_grid_add(list,1,5,spr_avatar_blank);
+			ds_grid_add(list,1,4,spr_avatar_blank);
+			ds_grid_add(list,1,3,spr_avatar_blank);
+			ds_grid_add(list,1,2,spr_avatar_blank);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;
+		
+		case 054:
+			ds_grid_resize(list,4,8)
+			ds_grid_add(list,0,7,"The prophet, Male, age unknow. His ability is...");
+			ds_grid_add(list,0,6,"Is what?");
+			ds_grid_add(list,0,5,"It is hard to explain. You can take it as prediction with strong restriction");
+			ds_grid_add(list,0,4,"The prophet loves to use his ablity to show off on the street");
+			ds_grid_add(list,0,3,"Why he's showing off when every one have special ability.");
+			ds_grid_add(list,0,2,"With the help of technology, everyone could throw fire balls or fly around. Ability of his kind is obviously more attracting");
+			ds_grid_add(list,0,1,"He do not have alibi, actually we did not found him at this moment as well.");
+			ds_grid_add(list,0,0,"Counting on you now!");
+
+
+			ds_grid_add(list,2,7,spr_npc_1);
+			ds_grid_add(list,2,6,spr_avatar_blank);
+			ds_grid_add(list,2,5,spr_npc_1);
+			ds_grid_add(list,2,4,spr_npc_1);
+			ds_grid_add(list,2,3,spr_avatar_blank);
+			ds_grid_add(list,2,2,spr_npc_1);
+			ds_grid_add(list,2,1,spr_npc_1);
+			ds_grid_add(list,2,0,spr_npc_1);
+
+			ds_grid_add(list,1,7,spr_avatar_blank);
+			ds_grid_add(list,1,6,spr_player_real);
+			ds_grid_add(list,1,5,spr_avatar_blank);
+			ds_grid_add(list,1,4,spr_avatar_blank);
+			ds_grid_add(list,1,3,spr_player_real);
+			ds_grid_add(list,1,2,spr_avatar_blank);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;	
+		
+		case 055:
+			ds_grid_resize(list,4,7)
+			ds_grid_add(list,0,6,"All of the have alibis...");
+			ds_grid_add(list,0,5,"Then who stolen the toilet");
+			ds_grid_add(list,0,4,"No one apart from them know the things about abiltiy report...");
+			ds_grid_add(list,0,3,"Wait, if the crinimal don't know about the report?");
+			ds_grid_add(list,0,2,"If the target was not the report but the toilet it self?");
+			ds_grid_add(list,0,1,"I need more investigation");
+			ds_grid_add(list,0,0,"That's the demo for now, thanks for your playing");
+
+			ds_grid_add(list,2,6,spr_avatar_blank);		    
+		    ds_grid_add(list,2,5,spr_avatar_blank);
+			ds_grid_add(list,2,4,spr_avatar_blank);
+			ds_grid_add(list,2,3,spr_avatar_blank);
+			ds_grid_add(list,2,2,spr_avatar_blank);
+			ds_grid_add(list,2,1,spr_avatar_blank);
+			ds_grid_add(list,2,0,spr_npc_1);
+
+			ds_grid_add(list,1,6,spr_player_real);
+			ds_grid_add(list,1,5,spr_player_real);
+			ds_grid_add(list,1,4,spr_player_real);
+			ds_grid_add(list,1,3,spr_player_real);
+			ds_grid_add(list,1,2,spr_player_real);
+			ds_grid_add(list,1,1,spr_player_real);
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;	
+		
+		case 056:
+			ds_grid_resize(list,4,4)
+			ds_grid_add(list,0,3,"countinue the inverstigation then");
+			ds_grid_add(list,0,2,"There's still"+string(3-load("clue_collected"))+"more to inverstigate");
+			ds_grid_add(list,0,1,"If you forget what happened, press Enter to check the clues");
+			ds_grid_add(list,0,0,"To return to the spiritual world, use the portal there");
+
+		
+			ds_grid_add(list,2,3,spr_npc_1);
+			ds_grid_add(list,2,2,spr_npc_1);
+			ds_grid_add(list,2,1,spr_npc_1);
+			ds_grid_add(list,2,0,spr_npc_1);
+
+			ds_grid_add(list,1,3,spr_avatar_blank);
+			ds_grid_add(list,1,2,spr_avatar_blank);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;	
+		
+		case 057:
+			ds_grid_resize(list,4,3)
+			ds_grid_add(list,0,2,"The Boss was stucked in the bathroom for 30 min");
+			ds_grid_add(list,0,1,"That's too bad");
+			ds_grid_add(list,0,0,"He's not the one");
+		
+
+			ds_grid_add(list,2,2,spr_avatar_blank);
+			ds_grid_add(list,2,1,spr_npc_1);
+			ds_grid_add(list,2,0,spr_avatar_blank);
+
+
+			ds_grid_add(list,1,2,spr_player_real);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_player_real);
+
+			return(list);
+		break;
+		
+		case 058:
+			ds_grid_resize(list,4,2)
+			ds_grid_add(list,0,1,"The Lady had not gone anywhere");
+			ds_grid_add(list,0,0,"That's surprsing");
+		
+			ds_grid_add(list,2,1,spr_avatar_blank);
+			ds_grid_add(list,2,0,spr_npc_1);
+
+			ds_grid_add(list,1,1,spr_player_real);
+			ds_grid_add(list,1,0,spr_avatar_blank);
+
+			return(list);
+		break;
+		
+		case 059:
+			ds_grid_resize(list,4,3)
+			ds_grid_add(list,0,2,"The prophet was collecting protection fee!");
+			ds_grid_add(list,0,1,"I'll report that");
+			ds_grid_add(list,0,0,"But he's not our target");
+		
+
+			ds_grid_add(list,2,2,spr_avatar_blank);
+			ds_grid_add(list,2,1,spr_npc_1);
+			ds_grid_add(list,2,0,spr_avatar_blank);
+
+
+			ds_grid_add(list,1,2,spr_player_real);
+			ds_grid_add(list,1,1,spr_avatar_blank);
+			ds_grid_add(list,1,0,spr_player_real);
+
+			return(list);
+		break;	
 	}
 
 

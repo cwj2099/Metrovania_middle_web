@@ -240,6 +240,14 @@ function sysList_en(argument0) {
 			return(list);
 		break;
 		
+		case 024:
+			ds_grid_resize(list,4,1)
+			ds_grid_add(list,0,0,"This is just a Demo, the out side world is still waiting to be built");	
+
+
+			return(list);
+		break;
+		
 	}
 
 

@@ -588,6 +588,7 @@
     {"id":{"name":"obj_enemy_froggy","path":"objects/obj_enemy_froggy/obj_enemy_froggy.yy",},"order":3,},
     {"id":{"name":"obj_enemy_spike","path":"objects/obj_enemy_spike/obj_enemy_spike.yy",},"order":4,},
     {"id":{"name":"obj_enemy_swordsman","path":"objects/obj_enemy_swordsman/obj_enemy_swordsman.yy",},"order":5,},
+    {"id":{"name":"optionList_en","path":"scripts/optionList_en/optionList_en.yy",},"order":7,},
     {"id":{"name":"obj_gManager_longHall3","path":"objects/obj_gManager_longHall3/obj_gManager_longHall3.yy",},"order":16,},
     {"id":{"name":"obj_enemy_bandit","path":"objects/obj_enemy_bandit/obj_enemy_bandit.yy",},"order":6,},
     {"id":{"name":"obj_enemy_mummy","path":"objects/obj_enemy_mummy/obj_enemy_mummy.yy",},"order":7,},

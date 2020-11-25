@@ -61,20 +61,45 @@ if(layer_get_visible("Pause5")){
 
 	for(var i=0;i<min(ds_list_size(line1),4);i++){
 		var card=clueList_cn(line1[|i]);
+		if(load("language")==1){
+			 card=clueList_en(line1[|i]);
+		}
+		else{
+			 card=clueList_cn(line1[|i]);
+		}
+		
 		draw_text_ext(tags[# i+1,0].x,tags[# i+1,0].y,card[# 0,0],10,80);
 	}
 	
 	for(var i=0;i<min(ds_list_size(line2),4);i++){
 		var card=clueList_cn(line2[|i]);
+		if(load("language")==1){
+			 card=clueList_en(line2[|i]);
+		}
+		else{
+			 card=clueList_cn(line2[|i]);
+		}
 		draw_text_ext(tags[# i+1,1].x,tags[# i+1,1].y,card[# 0,0],10,80);
 	}
 	
 	for(var i=0;i<min(ds_list_size(line3),4);i++){
 		var card=clueList_cn(line3[|i]);
+		if(load("language")==1){
+			 card=clueList_en(line3[|i]);
+		}
+		else{
+			 card=clueList_cn(line3[|i]);
+		}
 		draw_text_ext(tags[# i+1,2].x,tags[# i+1,2].y,card[# 0,0],10,80);
 	}
-	
 	var scard=clueList_cn(sline[|sX]);
+	if(load("language")==1){
+		 scard=clueList_en(sline[|sX]);;
+	}
+	else{
+		 scard=clueList_cn(sline[|sX]);
+	}
+	
 	if(detail){
 		draw_set_halign(fa_middle);
 		draw_set_valign(fa_middle);

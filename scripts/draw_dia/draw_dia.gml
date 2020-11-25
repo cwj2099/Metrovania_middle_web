@@ -36,6 +36,13 @@ function draw_dia(argument0) {
 	if(selecting){
 		global.oselected=uiSelect_alter(options,global.oselected);
 		var ops=optionList_cn(op);
+			if(load("language")==1){
+		 ops=optionList_en(op);
+	}
+	else{
+	 ops=optionList_cn(op);
+	}
+		
 		if(ops[# 0,0]!=-1){option1.visible=true;draw_sprite(option1.sprite_index,option1.image_index,option1.x,option1.y);draw_txt_warp(option1.x,option1.y,ops[# 0,0],20,580);}else{option1.visible=false;}
 		if(ops[# 1,0]!=-1){option2.visible=true;draw_sprite(option2.sprite_index,option2.image_index,option2.x,option2.y);draw_txt_warp(option2.x,option2.y,ops[# 1,0],20,580);}else{option2.visible=false;}
 		if(ops[# 2,0]!=-1){option3.visible=true;draw_sprite(option3.sprite_index,option3.image_index,option3.x,option3.y);draw_txt_warp(option3.x,option3.y,ops[# 2,0],20,580);}else{option3.visible=false;}

@@ -60,23 +60,30 @@ function clueList_en(argument0) {
 		
 		
 		case 007:
-			list[# 0,0]="boss1";
+			list[# 0,0]="The Boss";
 			list[# 1,0]=spr_npc_5;
-			list[# 2,0]="不需要翻译";
-			list[# 3,0]=spr_npc_5;
-		break;
-		
-		case 008:
-			list[# 0,0]="boss2";
-			list[# 1,0]=spr_npc_5;
-			list[# 2,0]="不需要翻译";
+			list[# 2,0]="Was locked in a bathroom during the black out, very sorry about that";
 			list[# 3,0]=spr_npc_5;
 		break;
 		
 		case 009:
-			list[# 0,0]="boss3";
+			list[# 0,0]="The Prophet";
 			list[# 1,0]=spr_npc_5;
-			list[# 2,0]="不需要翻译";
+			list[# 2,0]="was collecting protection fee during the black out by playing with his ability。would he be the cause of the chaos in East city?";
+			list[# 3,0]=spr_npc_5;
+		break;
+		
+		case 008:
+			list[# 0,0]="The Lady";
+			list[# 1,0]=spr_npc_5;
+			list[# 2,0]="was staying in her bar all the time during the black out，not likely to be the one as well";
+			list[# 3,0]=spr_npc_5;
+		break;
+		
+		case 010:
+			list[# 0,0]="spiritual world";
+			list[# 1,0]=spr_npc_5;
+			list[# 2,0]="a virtual maze full of monster, and I'm the only one who could enter。Assitant says that most monsters there are just made of physco fragement. But all human beings have their representation there as well. No one could lie there, even if some one there resist ot speak, I could forced them to do taht. This ability seems to be the reason that I became a police. But this is really the power to read mind?";
 			list[# 3,0]=spr_npc_5;
 		break;
 	}
