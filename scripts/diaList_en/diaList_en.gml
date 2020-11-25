@@ -109,7 +109,7 @@ function diaList_en(argument0) {
 	
 		case 009:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"You: Why there's a cat");
+			ds_grid_add(list,0,0,"You: Why is there a cat?");
 		
 			ds_grid_add(list,2,0,spr_avatar_blank);
 			ds_grid_add(list,1,0,spr_player_real);
@@ -118,7 +118,7 @@ function diaList_en(argument0) {
 	
 		case 010:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"You: got the kitty, time to bring it back");	
+			ds_grid_add(list,0,0,"You: You got the kitty! Time to bring it back");	
 	
 
 			ds_grid_add(list,2,0,spr_avatar_blank);	
@@ -128,10 +128,10 @@ function diaList_en(argument0) {
 	
 	 	case 011:
 			ds_grid_resize(list,4,4)
-			ds_grid_add(list,0,3,"Assitant: You, finally awake");
-			ds_grid_add(list,0,2,"Assitant: A major rubbery accured yesterday");
-			ds_grid_add(list,0,1,"Assitant: Now it's your time to catch those criminals");
-			ds_grid_add(list,0,0,"You: I see, I'll do the job");
+			ds_grid_add(list,0,3,"Assitant: You're finally awake");
+			ds_grid_add(list,0,2,"Assitant: There was a major robbery yesterday");
+			ds_grid_add(list,0,1,"Assitant: We need you to catch those criminals");
+			ds_grid_add(list,0,0,"You: Leave it to me");
 		
 			ds_grid_add(list,2,3,spr_npc_1);
 			ds_grid_add(list,2,2,spr_npc_1);
@@ -149,7 +149,7 @@ function diaList_en(argument0) {
 
 		case 012:
 			ds_grid_resize(list,4,2)
-			ds_grid_add(list,0,1,"Assitant: it's working time");
+			ds_grid_add(list,0,1,"Assitant: It's time to work!");
 			ds_grid_add(list,0,0,"You: I AM working");
 		
 			ds_grid_add(list,2,1,spr_npc_1);
@@ -201,12 +201,12 @@ function diaList_en(argument0) {
 	
 		case 018:
 			ds_grid_resize(list,4,6)
-			ds_grid_add(list,0,5,"Friendly boy: Hi, bro");
-			ds_grid_add(list,0,4,"Friendly boy: Are u looking for something?");
-			ds_grid_add(list,0,3,"You: nothing special, but do you know what happened yesterday");
-			ds_grid_add(list,0,2,"Friendly boy: I was in school so I don't know the details");
-			ds_grid_add(list,0,1,"Friendly boy: but every one else here on the sqaure seems to know something");
-			ds_grid_add(list,0,0,"You: thanks bro");
+			ds_grid_add(list,0,5,"Friendly boy: Sup bro");
+			ds_grid_add(list,0,4,"Friendly boy: Are you looking for something?");
+			ds_grid_add(list,0,3,"You: Some answers, yes, do you know what happened yesterday?");
+			ds_grid_add(list,0,2,"Friendly boy: I was at school so I don't know the details");
+			ds_grid_add(list,0,1,"Friendly boy: but everyone else here on the sqaure seems to know something");
+			ds_grid_add(list,0,0,"You: Thanks kid");
 		
 			ds_grid_add(list,2,5,spr_npc_2);
 			ds_grid_add(list,2,4,spr_npc_2);
@@ -227,8 +227,8 @@ function diaList_en(argument0) {
 	
 		case 019:
 			ds_grid_resize(list,4,2)
-			ds_grid_add(list,0,1,"Friendly boy: every thing's going bad these days");
-			ds_grid_add(list,0,0,"You: true, but there's still hope");
+			ds_grid_add(list,0,1,"Friendly boy: Everything's going wrong these days");
+			ds_grid_add(list,0,0,"You: True, but there's still hope");
 		
 
 			ds_grid_add(list,2,1,spr_npc_2);
@@ -244,13 +244,13 @@ function diaList_en(argument0) {
 	
 		case 020:
 			ds_grid_resize(list,4,7)
-			ds_grid_add(list,0,6,"Sad girl: Oh my little kitty");
-			ds_grid_add(list,0,5,"You: what happened?");
+			ds_grid_add(list,0,6,"Sad girl: Oh my little kitty!");
+			ds_grid_add(list,0,5,"You: What happened?");
 			ds_grid_add(list,0,4,"Sad girl: I can't find my little kitty!");
-			ds_grid_add(list,0,3,"You: no worries, I'll find it");
+			ds_grid_add(list,0,3,"You: Don't worry, I'll find your kitty");
 			ds_grid_add(list,0,2,"Sad girl: Really? You are so nice!");
-			ds_grid_add(list,0,1,"Sad girl: I'll provide you some information in exchange, Mr detective");
-			ds_grid_add(list,0,0,"You (in mind): how do her know that I'm a detective");
+			ds_grid_add(list,0,1,"Sad girl: I'll provide you some information if you find my kitty, Mr detective");
+			ds_grid_add(list,0,0,"You (in mind): How does she know that I'm a detective?");
 		
 			ds_grid_add(list,2,6,spr_npc_3);
 			ds_grid_add(list,2,5,spr_avatar_blank);
@@ -273,8 +273,8 @@ function diaList_en(argument0) {
 	
 		case 021:
 			ds_grid_resize(list,4,2)
-			ds_grid_add(list,0,1,"Sad girl: brings kitty back and I'll give you some information");
-			ds_grid_add(list,0,0,"You: doing it now, no rush");
+			ds_grid_add(list,0,1,"Sad girl: Bring my kitty back and I'll give you some information");
+			ds_grid_add(list,0,0,"You: I'm on it.");
 		
 
 			ds_grid_add(list,2,1,spr_npc_3);
@@ -290,13 +290,13 @@ function diaList_en(argument0) {
 	
 		case 022:
 			ds_grid_resize(list,4,7)
-			ds_grid_add(list,0,6,"Sad girl: Oh my God it's kitty");
-			ds_grid_add(list,0,5,"kitty: mew ~~");
-			ds_grid_add(list,0,4,"happy girl: You saved me! Mr detective!");
-			ds_grid_add(list,0,3,"You: I'm glad to see reunions");
-			ds_grid_add(list,0,2,"You: So, what's the information you have?");
-			ds_grid_add(list,0,1,"happy girl: hold on, just give us a second");
-			ds_grid_add(list,0,0,"You : sure");
+			ds_grid_add(list,0,6,"Sad girl: Oh my God it's my little kitty!");
+			ds_grid_add(list,0,5,"kitty: Meow ~~");
+			ds_grid_add(list,0,4,"Happy girl: You saved my kitty, Mr detective!");
+			ds_grid_add(list,0,3,"You: I'm happy to see reunions");
+			ds_grid_add(list,0,2,"You: So, what information do you have?");
+			ds_grid_add(list,0,1,"Happy girl: Hold on, just give us a second");
+			ds_grid_add(list,0,0,"You : Sure");
 		
 			ds_grid_add(list,2,6,spr_npc_3);
 			ds_grid_add(list,2,5,spr_avatar_blank);
@@ -319,13 +319,13 @@ function diaList_en(argument0) {
 	
 		case 023:
 			ds_grid_resize(list,4,7)
-			ds_grid_add(list,0,6,"happy girl: as you can see, there weird building beside the sqaure");
-			ds_grid_add(list,0,5,"You: yes?");
-			ds_grid_add(list,0,4,"happy girl: yesterday, I saw a guy in black enterred the building in rush");
-			ds_grid_add(list,0,3,"happy girl: just after the rubbery happened");
-			ds_grid_add(list,0,2,"You: I see, that is very important, thank you");
-			ds_grid_add(list,0,1,"happy girl: it's ok, Mr detective");
-			ds_grid_add(list,0,0,"kitty: mew ~~");
+			ds_grid_add(list,0,6,"Happy girl: Do you see that weird building near the square?");
+			ds_grid_add(list,0,5,"You: Yes?");
+			ds_grid_add(list,0,4,"Happy girl: Yesterday, I saw a guy in black enter the building in a hurry");
+			ds_grid_add(list,0,3,"Happy girl: right after the robbery took place");
+			ds_grid_add(list,0,2,"You: I see. That is a very important clue. Thank you");
+			ds_grid_add(list,0,1,"Happy girl: It's okay, Mr detective");
+			ds_grid_add(list,0,0,"kitty: meow ~~");
 
 			ds_grid_add(list,2,6,spr_npc_3);
 			ds_grid_add(list,2,5,spr_avatar_blank);
@@ -348,11 +348,11 @@ function diaList_en(argument0) {
 	
 		case 024:
 			ds_grid_resize(list,4,5)
-			ds_grid_add(list,0,4,"old man: what happened yesterday? It was pretty bad");
-			ds_grid_add(list,0,3,"old man: in xxx store, there was the assult, and people were injured");
-			ds_grid_add(list,0,2,"old man: I was there, and some one punched me");
-			ds_grid_add(list,0,1,"old man: but it was too dark, and I didn't catch their face");
-			ds_grid_add(list,0,0,"You: your information is very helpful");
+			ds_grid_add(list,0,4,"old man: What happened yesterday? Ho-ho- kid, it was really bad.");
+			ds_grid_add(list,0,3,"old man: In xxx store, there was an assult, and a few people were injured");
+			ds_grid_add(list,0,2,"old man: I was there, and someone punched me in my back. It's still hurtin' now");
+			ds_grid_add(list,0,1,"old man: But it was too dark, so I didn't catch their face");
+			ds_grid_add(list,0,0,"You: Your information is very helpful");
 
 		
 			ds_grid_add(list,2,4,spr_npc_4);
@@ -372,8 +372,8 @@ function diaList_en(argument0) {
 	
 		case 025:
 			ds_grid_resize(list,4,2)
-			ds_grid_add(list,0,1,"old man: cat? I've saw one in the right");
-			ds_grid_add(list,0,0,"You: thank you");
+			ds_grid_add(list,0,1,"old man: A little cat? I just saw one at the end of this street");
+			ds_grid_add(list,0,0,"You: Thank you");
 
 		
 			ds_grid_add(list,2,1,spr_npc_4);
@@ -387,10 +387,10 @@ function diaList_en(argument0) {
 	
 		case 026:
 			ds_grid_resize(list,4,4)
-			ds_grid_add(list,0,3,"Man in Black: what are you doing here, it's not your place");
-			ds_grid_add(list,0,2,"You: do you know what happened yesterday?");
-			ds_grid_add(list,0,1,"Man in Black: who knows? Now Get out of my SIGHT!")
-			ds_grid_add(list,0,0,"You: Emmmmm");
+			ds_grid_add(list,0,3,"man in black: What are you doing here? You're not supposed to be here");
+			ds_grid_add(list,0,2,"You: Do you know what happened yesterday?");
+			ds_grid_add(list,0,1,"man in black: Who knows? Why should I answer? Now Get OUT of my SIGHT!")
+			ds_grid_add(list,0,0,"You: Hmmmmm");
 
 		
 			ds_grid_add(list,2,3,spr_npc_5);
@@ -409,8 +409,8 @@ function diaList_en(argument0) {
 	
 		case 027:
 			ds_grid_resize(list,4,2)
-			ds_grid_add(list,0,1,"Man in Black: I said get out of my sight!");
-			ds_grid_add(list,0,0,"You: sure sure");
+			ds_grid_add(list,0,1,"man in black: I said get out of my sight!");
+			ds_grid_add(list,0,0,"You: ...");
 		
 			ds_grid_add(list,2,1,spr_npc_5);
 			ds_grid_add(list,2,0,spr_avatar_blank);
@@ -424,8 +424,8 @@ function diaList_en(argument0) {
 	
 		case 028:
 			ds_grid_resize(list,4,2)
-			ds_grid_add(list,0,1,"You (in mind): so he is the one the girl just mentioned");
-			ds_grid_add(list,0,0,"You (in mind): time to get into his mind");
+			ds_grid_add(list,0,1,"You (in mind): So he is the person that the girl just mentioned");
+			ds_grid_add(list,0,0,"You (in mind): Time to take a look at what trick he's playing in his mind");
 		
 			ds_grid_add(list,2,1,spr_avatar_blank);
 			ds_grid_add(list,2,0,spr_avatar_blank);
@@ -439,9 +439,9 @@ function diaList_en(argument0) {
 	
 		case 029:
 			ds_grid_resize(list,4,3)
-			ds_grid_add(list,0,2,"You: so that's what you looks here, a zombie?");
-			ds_grid_add(list,0,1,"Zombie: ahhhhhhhhhh");
-			ds_grid_add(list,0,0,"You: if you don't calm down your self, I'll help you with that");
+			ds_grid_add(list,0,2,"You: So that's what you look like in here, a zombie?");
+			ds_grid_add(list,0,1,"Zombie: AHHHHHHHHHHH");
+			ds_grid_add(list,0,0,"You: If you don't calm yourself, I'll help you with that");
 		
 			ds_grid_add(list,2,2,spr_avatar_blank);
 			ds_grid_add(list,2,1,spr_zombie);
@@ -457,7 +457,7 @@ function diaList_en(argument0) {
 	
 		case 030:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"You: time to go back to reality");
+			ds_grid_add(list,0,0,"You: Time to go back to reality");
 
 			ds_grid_add(list,2,0,spr_avatar_blank);
 			ds_grid_add(list,1,0,spr_player_real);		
@@ -467,14 +467,14 @@ function diaList_en(argument0) {
 	
 		case 031:
 			ds_grid_resize(list,4,8)
-			ds_grid_add(list,0,7,"You: wana talk now?");
-			ds_grid_add(list,0,6,"Man in black: sure, my friend attended an rubbery");
-			ds_grid_add(list,0,5,"Man in black: and I hide his rewards here");
-			ds_grid_add(list,0,4,"You: good, do you know where your friend is?");
-			ds_grid_add(list,0,3,"Man in black: somehere in the back yard streed");
-			ds_grid_add(list,0,2,"Man in black: but don't know the details");
-			ds_grid_add(list,0,1,"You (in mind): backyard streed is too big");
-			ds_grid_add(list,0,0,"You (in mind): maybe I should find him in the fiction world ");	
+			ds_grid_add(list,0,7,"You: Wanna talk now?");
+			ds_grid_add(list,0,6,"man in black: Yes yes! My friend did it!");
+			ds_grid_add(list,0,5,"man in black: And I hid his loots here");
+			ds_grid_add(list,0,4,"You: Good. Do you know where your friend is?");
+			ds_grid_add(list,0,3,"man in black: Somehere in the backstreet");
+			ds_grid_add(list,0,2,"man in black: but I don't know the details");
+			ds_grid_add(list,0,1,"You (in mind): The backstreet is too big");
+			ds_grid_add(list,0,0,"You (in mind): Maybe I should look for him in the spirit realm");	
 		
 			ds_grid_add(list,2,7,spr_avatar_blank);
 			ds_grid_add(list,2,6,spr_npc_5);
@@ -499,13 +499,13 @@ function diaList_en(argument0) {
 		
 		case 041:
 			ds_grid_resize(list,4,7)
-			ds_grid_add(list,0,6,"Ok, this seems to be the Boss");
-			ds_grid_add(list,0,5,"Hello Sir, what were you doing during the black out?");
+			ds_grid_add(list,0,6,"Ok, this seems to be the guy");
+			ds_grid_add(list,0,5,"Hello Sir, what were you doing during the blackout?");
 			ds_grid_add(list,0,4,"You know, there's always something you can't buy with money");
-			ds_grid_add(list,0,3,"Em, sir? I'm asking you a question...");
-			ds_grid_add(list,0,2,"with the empire I build wtih 15 years，with all wealth I gained through out my life, I still can not access that.");
+			ds_grid_add(list,0,3,"Excuse me, sir? I'm asking you a question...");
+			ds_grid_add(list,0,2,"I spent 15 years building my empire. It costed me all the wealth I've earned in my life, yet I still can't find IT.");
 			ds_grid_add(list,0,1,"(It seems that there's something wrong with this guy)");
-			ds_grid_add(list,0,0,"I don't know what is the thing you can't buy with money, but I'm going to get what I want with my fist now");
+			ds_grid_add(list,0,0,"I don't know what you're looking for, but I'm going to get what I want with my fist now");
 
 			ds_grid_add(list,2,6,spr_avatar_blank);
 			ds_grid_add(list,2,5,spr_avatar_blank);
@@ -527,13 +527,13 @@ function diaList_en(argument0) {
 		
 		case 042:
 			ds_grid_resize(list,4,7)
-			ds_grid_add(list,0,6,"I win, claim what have you done right now!");
-			ds_grid_add(list,0,5,"One can not buy friendship");
-			ds_grid_add(list,0,4,"Good words, but does this have anything to do with what you've done during the black out?");
-			ds_grid_add(list,0,3,"I was in the bath room alone, didn't expected the black out that made my toilet no longer work");
+			ds_grid_add(list,0,6,"I win. Tell me what you did right now!");
+			ds_grid_add(list,0,5,"One cannot buy friendship");
+			ds_grid_add(list,0,4,"Good words, but does this have anything to do with what you did during the blackout?");
+			ds_grid_add(list,0,3,"I was in the bathroom alone. I didn't expect the blackout. My toilet stopped working because of it.");
 			ds_grid_add(list,0,2,"...");
-			ds_grid_add(list,0,1,"If I had a friend, he may already brought me some tissue at that time");
-			ds_grid_add(list,0,0,"（There's no lie in spiritual world, so he was just stucked in the bath room for 30 min）");
+			ds_grid_add(list,0,1,"If I had a friend, he may have already brought me some tissue at that time");
+			ds_grid_add(list,0,0,"（No one can lie in the spiritual realm. So he really was stuck in the bathroom for 30 minutes）");
 
 			ds_grid_add(list,2,6,spr_avatar_blank);
 			ds_grid_add(list,2,5,spr_npc_5);
@@ -557,13 +557,13 @@ function diaList_en(argument0) {
 		
 		case 043:
 			ds_grid_resize(list,4,7)
-			ds_grid_add(list,0,6,"You're here?");
-			ds_grid_add(list,0,5,"I'm here");
+			ds_grid_add(list,0,6,"Why are you here?");
+			ds_grid_add(list,0,5,"There are things that I want to know");
 			ds_grid_add(list,0,4,"You shouldn't be here");
-			ds_grid_add(list,0,3,"Alright, I guess you are Mr Prophet. Can you tell me what were you doing during the black out?");
-			ds_grid_add(list,0,2,"We are helping the market conduct micro-capital control to maintain cash flow through compulsory measures, and I, as the chief officer, guard the control center to control the direction of cash flow");
-			ds_grid_add(list,0,1,"??? Now I got why assit do not want to explain your ability");
-			ds_grid_add(list,0,0,"I'll let you speak in a normal way with my fist");
+			ds_grid_add(list,0,3,"I guess you're the Prophet. Can you tell me what you were doing during the blackout?");
+			ds_grid_add(list,0,2,"We were helping the market conduct micro capital control to maintain the cash flow through compulsory measures. I, the chief officer, controlled the direction of cash flow");
+			ds_grid_add(list,0,1,"??? Now I know why my assitant didn't want to explain your ability");
+			ds_grid_add(list,0,0,"I'll make you talk like a normal person with my fist");
 
 			ds_grid_add(list,2,6,spr_npc_4);
 			ds_grid_add(list,2,5,spr_avatar_blank);
@@ -587,10 +587,10 @@ function diaList_en(argument0) {
 			ds_grid_resize(list,4,5)
 
 			ds_grid_add(list,0,4,"So, what were you doing?");
-			ds_grid_add(list,0,3,"Collecting protection fee and distribute them to my gang");
+			ds_grid_add(list,0,3,"...Collecting protection fee and distribute them to my gang");
 			ds_grid_add(list,0,2,"...");
-			ds_grid_add(list,0,1,"Guess you not the one I'm looking for cause you can't lie here.");
-			ds_grid_add(list,0,0,"But for the collection fee, you will be processed by my mate.");
+			ds_grid_add(list,0,1,"Guess you're not the one I'm looking for because you can't lie here.");
+			ds_grid_add(list,0,0,"But for illegally collecting protection fee, you will go with my partner for further interrogation");
 
 
 			ds_grid_add(list,2,4,spr_avatar_blank);
@@ -609,9 +609,9 @@ function diaList_en(argument0) {
 		break;
 		case 045:
 			ds_grid_resize(list,4,3)
-			ds_grid_add(list,0,2,"I guess you are the Lady. What were you doing during the black out?");
-			ds_grid_add(list,0,1,"I was working, what");
-			ds_grid_add(list,0,0,"(There's no lie in spiritual world, so she's not the one)");
+			ds_grid_add(list,0,2,"I guess you're the Lady. What were you doing during the blackout?");
+			ds_grid_add(list,0,1,"I was working. Why?");
+			ds_grid_add(list,0,0,"(There's no lie in the spiritual realm, so she's not the one)");
 		
 			ds_grid_add(list,2,2,spr_avatar_blank);
 			ds_grid_add(list,2,1,spr_npc_3);
@@ -625,7 +625,7 @@ function diaList_en(argument0) {
 		
 		case 046:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"There's no lie in spiritual world, no need to ask her again");
+			ds_grid_add(list,0,0,"No one can lie in spiritual world, no need to ask her again");
 
 		
 			ds_grid_add(list,2,0,spr_avatar_blank);
@@ -638,7 +638,7 @@ function diaList_en(argument0) {
 		
 		case 047:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"I'm tired, time to went back to reality");
+			ds_grid_add(list,0,0,"I'm tired. Time to go back to reality");
 
 		
 			ds_grid_add(list,2,0,spr_avatar_blank);
@@ -651,7 +651,7 @@ function diaList_en(argument0) {
 		
 		case 048:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"All three collected, time to went back to reality and report");
+			ds_grid_add(list,0,0,"All three collected. Time to go back to reality and report");
 
 		
 			ds_grid_add(list,2,0,spr_avatar_blank);
@@ -679,13 +679,13 @@ function diaList_en(argument0) {
 		case 050:
 			ds_grid_resize(list,4,8)
 			ds_grid_add(list,0,7,"You, finally awake");
-			ds_grid_add(list,0,6,"Did you get anything useful in the spiritual world?");
-			ds_grid_add(list,0,5,"Nope. Spiritual world is a maze, need time to figure out what is what.");
+			ds_grid_add(list,0,6,"Did you get anything useful in the spiritual realm?");
+			ds_grid_add(list,0,5,"Nope. The spiritual realm is a maze, I need time to find my way in it.");
 			ds_grid_add(list,0,4,"Have you collected all three suspects' information?");
-			ds_grid_add(list,0,3,"by suspects do you mean the musuem curator's customers?");
-			ds_grid_add(list,0,2,"Yeah, one of them may stole it to avoid the auction");
-			ds_grid_add(list,0,1,"Or it make no sense for a person to stole that toilet");
-			ds_grid_add(list,0,0,"Ok, which one do you want to check");
+			ds_grid_add(list,0,3,"By suspects do you mean the musuem curator's customers?");
+			ds_grid_add(list,0,2,"Yeah, one of them may stole the toilet to avoid it being auctioned to somebody else");
+			ds_grid_add(list,0,1,"otherwise it makes no sense for a person to steal that toilet");
+			ds_grid_add(list,0,0,"Okay, which one do you want to check?");
 			
 			ds_grid_add(list,2,7,spr_npc_1);
 			ds_grid_add(list,2,6,spr_npc_1);
@@ -710,7 +710,7 @@ function diaList_en(argument0) {
 		
 		case 051:
 			ds_grid_resize(list,4,1)
-			ds_grid_add(list,0,0,"so which to discuss?");
+			ds_grid_add(list,0,0,"so what should we discuss?");
 
 		
 			ds_grid_add(list,2,0,spr_npc_1);
