@@ -6,5 +6,10 @@ draw_set_valign(fa_center);
 draw_set_color(c_black);
 
 for(var i=0;i<ds_list_size(creditList_cn);i++){
+	if(load("language")==1){
+		draw_text(x,y+25*i,creditList_en[|i]);
+	}
+	else{
 	draw_text(x,y+25*i,creditList_cn[|i]);
+	}
 }

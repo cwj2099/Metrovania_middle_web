@@ -826,8 +826,8 @@ function diaList_en(argument0) {
 		
 		case 055:
 			ds_grid_resize(list,4,7)
-			ds_grid_add(list,0,6,"All of the have alibis...");
-			ds_grid_add(list,0,5,"Then who stolen the toilet");
+			ds_grid_add(list,0,6,"All of them have alibis...");
+			ds_grid_add(list,0,5,"Then who've stolen the toilet");
 			ds_grid_add(list,0,4,"No one apart from them know the things about abiltiy report...");
 			ds_grid_add(list,0,3,"Wait, if the crinimal don't know about the report?");
 			ds_grid_add(list,0,2,"If the target was not the report but the toilet it self?");

@@ -29,8 +29,10 @@ if(!global.inGame){
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_center);
 	draw_set_color(c_black);
-	draw_txt_warp(cX-300,cY-150,"J确认 K取消 /J to confirm K to cancel",20,640);
-	draw_txt_warp(cX-300,cY-130,"WASD选择/WASD to select",20,640);
+	draw_txt_warp(cX-300,cY-150,"J确认 K取消",20,640);
+	draw_txt_warp(cX-300,cY-130,"WASD选择",20,640);
+	draw_txt_warp(cX-300,cY-110,"J to confirm K to cancel",20,640);
+	draw_txt_warp(cX-300,cY-90,"WASD to select",20,640);
 }
 
 
