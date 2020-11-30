@@ -28,8 +28,11 @@ if(global.input_ok||global.input_start){
 		case button1:
 			//instance_create_layer(0,0,"Instances",obj_player_real);
 			if(file_exists(global.file_name))
+			var lan=load("language");
 			{file_delete(global.file_name);}
+			
 			record_default();
+			write("language",lan);
 			write("started",true);
 			ds_map_secure_save(global.save_data,global.file_name);
 			//audio_stop_all();
